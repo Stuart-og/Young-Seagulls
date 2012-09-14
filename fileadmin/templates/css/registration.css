@@ -1,0 +1,64 @@
+/* Intro
+----------------------------------------------------------------------------------------------------------------------------*/
+/*
+#gg-intro-title { background: url(../img/about/about-title.png); width: 160px; height: 119px; display: block; position: relative; margin: -50px 0 0 -45px; }
+#gg-intro-gully { background: url(../img/about/intro-gully.png); width: 131px; height: 93px; display: block; position: absolute; top: -20px; left: 130px; }
+#gg-intro-bg h1 { margin-top: -20px!important; }
+*/
+
+/* Blog Entry 
+----------------------------------------------------------------------------------------------------------------------------*/
+/*
+.date { width: 60px; height: 60px; display: block; background: #006fb7; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75); float: left; margin: 0 20px 1em 0; }
+.date .day { font-size: 2.5em; font-weight: bold; text-align: center; display: block; background: #c0e5fa; padding: 7px 0; color: #006fb7; line-height: 100%; text-shadow: 0 -1px 1px rgba(255,255,255,0.5); }
+.date .month { font-size: 0.8em; font-weight: bold; text-align: center; display: block; color: #c0e5fa; padding: 5px 0 0 0; line-height: 100%; }
+.entry h1 a { text-decoration: none; text-shadow: 0 -1px 1px rgba(168,224,245,0.75); }
+.entry { clear: both; }
+.entry p { color: #333; font-size: 1.4em; }
+img.attached-image { float: left; border: 1px solid #999; margin: 0 20px 0 0; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75); }
+#gg-common-bottom .bottom-panel-bg { position: absolute; margin-top: -22px; left: 475px; }
+#gg-common-top { margin: 5px 0 0 0; }
+*/
+/* School Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+/*
+#gg-school-panel { width: 225px; height: 215px; background: url(../img/about/school-bg.jpg) 0px 0px no-repeat; margin: 9px 0 0 0; position: relative;  }
+#gg-school-panel-top { background: url(../img/about/title-school.png) no-repeat; width: 225px; height: 78px; display: block; position: relative; margin-top: -5px; left: -8px; color: #FFF; }
+#gg-school-panel-top h2 { position: relative; top: 8px; left: 135px; width: 110px;  }
+#gg-school-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: 99px; }
+*/
+/* Party Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+/*
+#gg-party-panel { width: 460px; height: 215px; background: url(../img/about/party-bg.jpg) 0px 0px no-repeat; margin: 4px 0 0 5px;  }
+#gg-party-panel-top { background: url(../img/about/title-parties.png) no-repeat; width: 460px; height: 74px; display: block; position: relative; top: -1px; left: -5px; color: #FFF; }
+#gg-party-panel-top h2 { position: relative; top: 14px; left: 145px; width: 200px;  }
+#gg-party-panel .bottom-panel-bg { left: 242px; position: relative; margin-top: 103px; }
+*/
+
+/* Titles
+----------------------------------------------------------------------------------------------------------------------------*/
+/*
+h1#gg-parties-title { background: url(../img/about/h1-title-parties.png) no-repeat; width: 227px; height: 0px; display: block; padding: 76px 0 0 0; overflow: hidden; position: relative; left: -30px; margin: -40px 0 0 0!important; }
+h1#gg-schools-title { background: url(../img/about/h1-title-schools.png) no-repeat; width: 222px; height: 0px; display: block; padding: 106px 0 0 0; overflow: hidden; position: relative; left: -30px; margin: -50px 0 -20px 0!important; }*/
+
+
+form#gg-reg-form {  }
+form#gg-reg-form div.gg-form-row { padding: 10px 10px 10px 10px !important; }
+form#gg-reg-form div.gg-form-row.blue { background: #c9eff8; }
+form#gg-reg-form div.gg-form-row p { color: #003e7f; font-size: 1.4em; width: 360px; padding: 0px 10px 0px 0px !important; margin: 0px; !important; }
+form#gg-reg-form div.gg-form-row input.gg-reg-text-input { width: 202px; height: 17px; padding: 3px 0px 0px 3px; background: url(../img/global/text-input.gif) 0px 0px repeat; border: 0px; }
+form#gg-reg-form div.gg-form-row input.gg-reg-text-input-small { width: 37px; height: 17px; padding: 3px 0px 0px 3px; margin: 0px 15px 0px 0px; background: url(../img/global/text-input-small.gif) 0px 0px no-repeat; border: 0px; }
+form#gg-reg-form div.gg-form-row select.gg-select { margin: 0px 10px 0px 0px; }
+
+form#gg-reg-form div.gg-form-row div.gg-reg-radio-check { font-size: 1.4em; padding: 0px 0px 5px 0px; color: #003e7f; }
+
+div.error { color: red; font-size: 1.4em; }
+.formError {
+	position: absolute;
+	background: white;
+	padding: 5px;
+	border: solid red 2px;
+	color: red;
+	z-index: 5;
+}

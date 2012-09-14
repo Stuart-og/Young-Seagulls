@@ -1,0 +1,10 @@
+.db_list_hidden td {
+	color: #888;
+}
+.reported td {
+	color: red;
+}
+.reported-once td {
+	color: #f80;
+}
+

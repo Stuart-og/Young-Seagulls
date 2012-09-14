@@ -1,0 +1,90 @@
+/* Main BG
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-skills-bg { background: url(../img/skills/skills-bg.jpg) no-repeat; width: 934px; height: 639px; display: block; margin: 0 0 0 3px; z-index: 30; }
+#gg-skills-container { position: relative; margin-left: 2px; }
+
+/* Skills Navigation
+----------------------------------------------------------------------------------------------------------------------------*/ 
+#skills #secondary { position: absolute; z-index: 40; top: 1px; }
+
+/* Skills Heading
+----------------------------------------------------------------------------------------------------------------------------*/ 
+#gg-skills-bg h1 { background:url(../img/skills/skills-title.png); width: 235px; height: 0px; overflow: hidden; padding: 106px 0 0 0; display: block; position: relative; left: 00px; top: -10px; z-index: 40; left: 232px; margin: 0px !important; }
+
+/* Skills Video Gallery
+----------------------------------------------------------------------------------------------------------------------------*/ 
+#gg-skills-videos { position: relative; top: 110px; left: 5px; height: 170px; width: 923px; }
+#gg-video-thumbs-container { position: relative; padding-top: 170px; }
+.video-thumbs { width: 176px; height: 100px; float: left; clear: right; margin: 0 13px; position: relative; }
+.video-thumbs img { border: 1px solid #FFF; }
+.video-thumbs img:hover { border: 1px solid #0092cd; }
+.video-thumbs p { line-height: 100%; color: #FFF; font-size: 0.8em !important; }
+#gg-skills-videos .leftarrow, .rightarrow { margin: 20px 0 0 0; }
+#gg-skills-videos .video-thumb-info { background: url(../img/global/black-50.png); float: left; display: block; width: 166px; padding: 5px; margin: -24px 0 5px 0px; position: relative; }
+#gg-skills-videos .number { float: left; font-family: 'Arial Black' Arial, Helvetica, sans-serif; font-weight: bold; color: #7cdbff; }
+#gg-skills-videos .rating { float: left; margin: 0 0 0 5px; }
+#gg-skills-videos .link { clear: both; border-bottom: 1px solid #FFF; padding: 0 0 0.4em 0; }
+#gg-skills-videos .link a { font-weight: bold; color: #FFF; text-decoration: none; }
+#gg-skills-videos a:hover { color: #0092cd; }
+#gg-skills-videos .smallrating1, .smallrating2, .smallrating3 { float: left; margin: -2px 0 0 5px; position: relative;  }
+
+/* Skills Video Panel
+----------------------------------------------------------------------------------------------------------------------------*/ 
+#gg-skills-video-panel { width: 607px; height: 254px; position: relative; left: 270px; margin-top: -52px; }
+#gg-skills-video { /*float: left; margin: 0 0 0 12px;*/ position: absolute; z-index: 10; top: 0px; left: 112px; overflow: hidden; width: 480px; height: 360px; }
+
+#gg-skills-video-info { background: blue; height:205px; left:-244px; overflow:hidden; position:absolute; top:180px; width:355px; z-index:10; display: none; }
+
+
+
+
+#gg-skills-video-info p { height: 120px; color: #FFF; font-size: 1.2em; }
+#gg-skills-video-panel h3 { font-size: 1.4em; color: #7cdbff; }
+#gg-skills-video-panel h2 { width: 191px; height: 0px; padding: 32px 0 0 0; display: block; overflow: hidden; margin: 5px 0 10px 0; }
+h2.start { background: url(../img/skills/skills-type-all.png); }
+h2.1star { background: url(../img/skills/skills-type-1star.png); }
+h2.2star { background: url(../img/skills/skills-type-2star.png); }
+h2.3star { background: url(../img/skills/skills-type-3star.png); }
+
+/* Skills slider
+----------------------------------------------------------------------------------------------------------------------------*/ 
+
+div#gg-video-thumbs-container { width: 808px; height: 190px; margin: 0px auto; overflow: hidden; }
+div#gg-video-thumbs-container ul { width: 808px; margin: 0px; padding: 0px; }
+div#gg-video-thumbs-container ul li { width: 808px; list-style: none; }
+
+div#gg-video-thumbs-container ul li div.gg-skills-video-set { width: 808px; }
+
+div.gg-skills-vid-thumb { position: relative; float: left; padding: 0px 12px 0px 12px; }
+div.gg-skills-vid-thumb img { border: 1px solid #fff; }
+
+
+
+div.gg-skills-vid-thumb div.gg-skills-vid-meta { position: absolute; bottom: 1px; left: 13px; width: 174px; background: black; opacity: 0.6; }
+div.gg-skills-vid-thumb div.gg-skills-vid-meta p { padding: 2px 2px 2px 5px !important; margin: 0px !important; color: #fff; font-size: 0.8em; }
+
+div.gg-skills-vid-thumb div.gg-skills-vid-star-rating { display: none; position: absolute; top: 1px; left: 13px; padding: 3px 0px 1px 0px !important; width: 173px; background: black; opacity: 0.6; }
+
+
+
+
+span#prevBtn a { display: block; position: absolute; top: 510px; left: 10px; z-index: 20; width: 55px; height: 54px; background:  url(../img/global/arrows-left.png) no-repeat 0px 0px; text-indent: -9999px; }
+span#nextBtn a { display: block; position: absolute; top: 510px; left: 873px; z-index: 20; width: 55px; height: 54px; background:  url(../img/global/arrows-right.png) no-repeat 0px 0px; text-indent: -9999px; }
+
+span#prevBtn a:hover,
+span#nextBtn a:hover { background-position: 0px -54px; }
+
+
+a#gg-skills-not-logged-in { position: absolute; top: 100px; left: 305px; z-index: 50; display: block; background: red; width: 100px; padding: 10px; color: #fff; font-weight: bold; text-decoration: none; }
+
+
+p#gg-skills-pick { position: absolute; top: 80px; left: 218px; width: 328px; padding: 0px 20px 0px 20px; font-size: 2em; text-align: center; }
+
+#ts-skills-loading { position: absolute; top: 70px; left: 370px; }
+
+div#flash { position: absolute; left: 0px; top: 100%; margin-left: 0px; margin-top: -400px; z-index: 1000; }
+
+div#flash { position: absolute; left: 0px; top: 100%; margin-left: 0px; margin-top: -400px; z-index: 1000; }
+
+
+/* Vid titles/stars */

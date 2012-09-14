@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_panels'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">GG Schools Panel Narrow</label>
+			<label index="tt_content.list_type_pi2">GG Parties Panel Wide</label>
+			<label index="tt_content.list_type_pi3">GG Fan Zone Panel Narrow</label>
+			<label index="tt_content.list_type_pi4">GG Parties Panel Narrow</label>
+			<label index="tt_content.list_type_pi5">GG Skills Panel Narrow</label>
+			<label index="tt_content.list_type_pi6">GG Grub Panel Narrow</label>
+			<label index="tt_content.list_type_pi7">GG Photos Panel Narrow</label>
+			<label index="tt_content.list_type_pi8">GG Stadium Downloads Panel</label>
+			<label index="tt_content.list_type_pi9">GG Stadium Education Panel</label>
+			<label index="tt_content.list_type_pi10">GG Stadium Webcam Panel</label>
+			<label index="tt_content.list_type_pi11">GG Gallery Panel</label>
+			<label index="tt_content.list_type_pi12">GG Cheerleaders Join Us Panel</label>
+		</languageKey>
+	</data>
+</T3locallang>

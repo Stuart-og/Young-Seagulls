@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ts_the_score'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">TS The Score Report</label>
+			<label index="tt_content.list_type_pi2">TS The Score Gallery</label>
+			<label index="tt_content.list_type_pi3">TS The Score Prev Results</label>
+			<label index="tt_content.list_type_pi4">TS The Score Next Fixture</label>
+		</languageKey>
+	</data>
+</T3locallang>

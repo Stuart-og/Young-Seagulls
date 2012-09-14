@@ -1,0 +1,12 @@
+a:2:{s:8:"origFile";s:80:"typo3conf/ext/loginbox_macmade/pi1/locallang.xml|24-08-2011 12:50:53|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:25:{s:20:"pi_loginbox_username";s:8:"Username";s:20:"pi_loginbox_password";s:8:"Password";s:17:"pi_loginbox_login";s:5:"Login";s:18:"pi_loginbox_logout";s:6:"Logout";s:22:"pi_loginbox_permalogin";s:11:"Remember me";s:15:"pi_loginbox_yes";s:3:"Yes";s:14:"pi_loginbox_no";s:2:"No";s:14:"welcome.header";s:10:"User login";s:15:"welcome.message";s:74:"Please enter your username and password in order to log in on the website.";s:14:"success.header";s:16:"Login successful";s:15:"success.message";s:34:"You are now logged on the website.";s:12:"error.header";s:11:"Login error";s:13:"error.message";s:261:"An error occurred during login process. Most likely you didn't enter your username or password correctly. Be certain that you enter them precisely as they are, including upper/lower case. Another possibility is that cookies might be disabled in your webbrowser.";s:13:"status.header";s:17:"Connection status";s:14:"status.message";s:39:"Here is your current connection status.";s:13:"logout.header";s:19:"You have logged out";s:14:"logout.message";s:43:"You just logged out from your user session.";s:21:"forgotpassword.header";s:21:"Forgot your password?";s:22:"forgotpassword.message";s:152:"Please enter the email address by which you registered on this website. Then press "Send password" and your password will immediately be emailed to you.";s:33:"forgotpassword.error.unvalidemail";s:35:"Please enter a valid email address.";s:27:"forgotpassword.error.nouser";s:52:"There is no user registered with that email address.";s:22:"forgotpassword.success";s:63:"Your password has been sent to the email address you specified.";s:20:"forgotpassword.email";s:18:"Your email address";s:19:"forgotpassword.send";s:4:"Send";s:22:"forgotpassword.mailmsg";s:224:"Password recover
+%s,
+
+You are receiving this email from %s because you asked to recover your password.
+
+Your username is: %s
+Your password is: %s
+
+Please connect to the following address in order to log in:
+%s
+
+Best regards,";}}}

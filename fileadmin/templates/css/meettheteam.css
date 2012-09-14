@@ -1,0 +1,382 @@
+/* Team Players
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-team-players-bg { background: url(../img/meettheteam/team-players-bg.png) no-repeat; width: 460px; height: 649px; margin: 0 0 10px 0; position: relative; }
+
+
+
+#gg-team-players-top { background: url(../img/meettheteam/team-players-title.png); width: 460px; height: 104px; display: block; position: relative; top: -10px; left: -6px; color: #FFF; }
+#gg-team-players-top h2 { position: relative; top: 25px; left: 175px; width: 100px;  }
+#gg-team-players-cards { width: 460px; height: 340px; margin: -33px 0 0 4px; position: relative; }
+#gg-team-players-bg .bottom-panel-bg { margin-top: 0px; left: 240px; bottom: 1px; position: absolute; clear: both }
+#gg-team-players-cards .player-card { width: 65px; height: 68px; display: block; float: left; margin: 0 5px; }
+#gg-team-players-cards .opacity60 { opacity:0.6;filter:alpha(opacity=60) }
+#gg-team-players-cards .player-card img { border: 1px solid #FFF; }
+#gg-team-players-cards .player-card img:hover { border: 1px solid #003e7f; }
+#gg-team-players-cards .player-card .collected { color: #c9eff8; background: #003e7f; text-align: center; font-weight: bold; font-size: 1.1em; margin: 0px; top: -2px; position: relative; }
+#gg-team-players-cards .player-card .soon { text-align: center; font-weight: bold; font-size: 1.1em; line-height: 100%; position: relative; margin-top: -43px; }
+
+/* Promotion
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-team-promotion-bg { background: url(../img/meettheteam/team-promotion-bg.png) no-repeat; width: 460px; height: 190px; }
+
+/* Player Info
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-team-info-bg { background: url(../img/meettheteam/team-info-bg.png) no-repeat; width: 460px; /*height: 618px;*/ height: 718px; margin: 30px 0 0 0; /*background: green;*/ }
+#gg-team-info-title { background: url(../img/meettheteam/team-info-title.png) no-repeat; width: 438px; height: 68px; margin: 1px 0 0 3px; padding: 0 0 0 15px; position: relative; }
+#gg-team-info-title .button { float: left; margin: 0 1px 0 0; position: relative; top: 11px; }
+#gg-team-info-title .mainrating { top: 10px; position: relative; float: right; left: -15px; }
+#gg-team-info-imgvideo { width: 446px; height: 290px; /*border: 1px solid #FFF;*/ margin: 0 auto; position: relative; top: -15px; left: -1px; }
+#gg-team-info-stats { background: url(../img/meettheteam/team-info-stats-bg.png) no-repeat; width: 442px; /*height: 265px;*/ height: 370px; position: relative; /*margin: -8px 0 0 8px;*/ top: 288px; left: -2px; display: block; /*background:red;*/ }
+#gg-team-info-thumbs { position: relative; width: 440px; height: 75px; top: 10px; position: relative;  }
+#gg-team-info-thumbs img { border: 1px solid #FFF; margin: 0 7px; float: left; }
+#gg-team-info-thumbs .leftarrow, .rightarrow { }
+#gg-team-info { clear: both; width: 400px; margin: 0 auto; text-align: center; left: -5px; position: relative; top: 70px; }
+#gg-team-info h2, h3 { margin: 0px; color: #FFF; line-height: 100%; font-family: 'Arial Black', Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: -1px; }
+#gg-team-info h2 { font-size: 3em; }
+#gg-team-info h3 { font-size: 2em; }
+#gg-team-info h3 img { margin: 0 5px; }
+#gg-team-info-stats .bottom-panel-bg { /*margin-top: 33px;*/ left: 116px; position: absolute; /*top: 232px;*/ top: 335px; display: none; }
+
+
+#gg-team-info-bg .bottom-panel-bg { /*margin-top: 33px;*/ left: 116px; position: absolute; bottom: 1px; }
+
+div.slideshow a.advance-link { overflow: visible!important; }
+.slideshow-container { /*top: 50px;*/ top: 47px; }
+
+
+
+#gg-team-info-bg .moreinfo { padding: 15px;}
+#gg-team-info-bg .moreinfo .portrait { float: right; border: 1px solid #FFF; margin: 0 0 20px 20px }
+#gg-team-info-bg .moreinfo h2, #gg-team-info-bg .moreinfo h3 { margin: 0px; color: #FFF; line-height: 100%; font-family: 'Arial Black', Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: -1px; text-align: center }
+#gg-team-info-bg .moreinfo h2 { font-size: 3em; }
+#gg-team-info-bg .moreinfo h3 { font-size: 2em; margin: 0 0 20px 0; }
+#gg-team-info-bg .moreinfo h3 img { margin: 0 5px; }
+
+
+div.gg-player-attribute { font-size: 1.2em; color: #fff; padding: 0px 0px 2px 0px; }
+
+
+/* Seagull Positioning 
+----------------------------------------------------------------------------------------------------------------------------*/
+#meettheteam .seagull01 { margin-left: 502px; /*margin-top: 605px;*/ margin-top: 710px; }
+#meettheteam .seagull02 { margin-left: 490px; margin-top: 27px; }
+#meettheteam .seagull03 { margin-left: 430px; margin-top: 5px; }
+#meettheteam .seagull04 { margin-left: 390px; margin-top: 10px; }
+
+
+
+
+/*
+div.slideshow span.image-wrapper { display: block; position: absolute; top: -12px; z-index: 10;     text-indent: -9999px; overflow: hidden; width: 446px; height: 290px; }
+div.slideshow span.image-wrapper img a { text-decoration: none; }
+
+ul.thumbs { position: absolute; top: 0px; left: 60px; margin: 0px; padding: 0px; list-style: none; }
+ul.thumbs li { padding: 0px 5px 0px 5px; display: inline; }
+ul.thumbs li a.thumb {  }
+div.top.pagination { position: absolute; bottom: 0px; background: red; }
+div.bottom.pagination { position: absolute; bottom: 0px; left: 50px; background: yellow; }
+
+div.slideshow a.advance-link:hover,
+div.slideshow a.advance-link:active,
+div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+.image-caption,
+div.caption { display: none; }
+
+a.prev { 
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	background: url(../img/global/arrows-left.png) no-repeat 0px 0px;
+	display:block;
+	height:0;
+	overflow:hidden;
+	padding:54px 0 0;
+	width:55px;
+	text-decoration: -9999px;
+}
+
+a.next {
+	position: absolute;
+	top: 0px;
+	left: 380px;
+	z-index: 20;
+	background: url(../img/global/arrows-right.png) no-repeat 0px 0px;
+	display:block;
+	height:0;
+	overflow:hidden;
+	padding:54px 0 0;
+	width:55px;
+	z-index:10;
+	text-indent: -9999px;
+}
+
+a.prev:hover,
+a.next:hover { background-position: 0px -54px; }*/
+
+
+
+div#container {
+	overflow: hidden;
+}
+div.content {
+	/*display: none;
+	clear: both;*/
+}
+
+div.content a, div.navigation a {
+	text-decoration: none;
+}
+div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+
+div.navigation a.pageLink {
+	height: 77px;
+	line-height: 77px;
+}
+
+div.controls {
+	/*margin-top: 5px;
+	height: 23px;*/
+	position: absolute;
+	z-index: 50;
+	top: 320px;
+}
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	/*float: left;*/
+}
+div.nav-controls {
+	/*float: right;*/
+}
+
+div.slideshow-container,
+div.loader,
+div.slideshow a.advance-link {
+	/*width: 510px;*/ /* This should be set to be at least the width of the largest image in the slideshow with padding */
+}
+
+div.loader,
+div.slideshow a.advance-link,
+div.caption-container {
+	/*height: 502px;*/ /* This should be set to be at least the height of the largest image in the slideshow with padding */	
+}
+
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	/*float: left;*/
+	/*height: 532px;*/
+}
+
+div.loader {
+	/*position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: -13px;
+	z-index: 10;
+	left: -1px;
+	/*top: 30px;
+	left: 0;*/
+}
+div.slideshow span.image-wrapper img {
+	border: 1px solid #fff;
+}
+
+div.slideshow a.advance-link {
+	display: block;
+	/*line-height: 502px;*/ /* This should be set to be at least the height of the largest image in the slideshow with padding */
+	text-align: center;
+}
+
+div.slideshow a.advance-link:hover,
+div.slideshow a.advance-link:active,
+div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow a.advance-link:focus {
+	outline: none;
+}
+
+div.slideshow img {
+	/*border-style: solid;
+	border-width: 1px;*/
+	/*width: 446px;
+	height: 290px;*/
+}
+div.caption-container {
+	/*float: right;
+	position: relative;
+	margin-top: 30px;*/
+	display: none;
+}
+span.image-caption {
+	display: none;
+	/*display: block;
+	position: absolute;
+	top: 0;
+	left: 0;*/
+}
+
+div.caption-container, span.image-caption {
+	/*width: 334px;*/
+}
+
+div.caption {
+	/*padding: 0 12px;*/
+}
+
+div.image-title {
+	/*font-weight: bold;
+	font-size: 1.4em;*/
+}
+/*
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+div.download {
+	margin-top: 8px;
+}
+div.photo-index {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 12px;
+}
+*/
+div.navigation-container {
+	/*float: left;
+	position: relative;
+	left: 50%;*/
+}
+/*
+div.navigation {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+*/
+div.navigation a.pageLink {
+	/*display: block;
+	position: relative;
+	float: left;
+	margin: 2px;
+	width: 16px;
+	background-position:center center;
+	background-repeat:no-repeat;*/
+}
+div.navigation a.pageLink:focus {
+	outline: none;
+}
+
+ul.thumbs {
+	/*position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;*/
+}
+ul.thumbs li {
+	/*float: left;
+	padding: 0;
+	margin: 2px;*/
+	list-style: none;
+}
+ul.thumbs { position: absolute; top: 0px; left: 59px; z-index: 0; margin: 0px; padding: 0px; list-style: none; }
+ul.thumbs li { padding: 0px 5px 0px 5px; display: inline; }
+
+div.nav-controls { position: relative; }
+div.nav-controls a.prev { position: absolute; z-index: 80; top: 8px; left: 0px; background: url(../img/global/arrows-left.png) no-repeat 0px 0px; display: block; height: 0px; overflow: hidden; padding: 54px 0 0; width: 55px; text-indent: -9999px;
+}
+
+div.nav-controls a.next { position: absolute; z-index: 90; top: 8px; left: 384px; background: url(../img/global/arrows-right.png) no-repeat 0px 0px; display: block; height: 0px; overflow: hidden; padding: 54px 0 0; width: 55px; text-indent: -9999px;
+}
+
+a.prev:hover,
+a.next:hover { background-position: 0px -54px; }
+
+
+
+a.thumb {
+	/*padding: 1px;
+	display: block;*/
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	/*display: block;*/
+}
+div.pagination {
+	/*clear: both;
+	position: relative;
+	left: -50%;*/
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	/*position: relative;
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;*/
+}
+div.pagination a:hover {
+	/*text-decoration: none;*/
+}
+div.pagination span.current {
+	/*font-weight: bold;*/
+}
+div.pagination span.ellipsis {
+	border: none;
+	/*padding: 5px 0 3px 2px;*/
+}
+
+div.gallery-gutter {
+	/*clear: both;
+	padding-bottom: 20px;*/
+}
+
+
+
+
+
+
+/* Meet the Team Slider 
+----------------------------------------------------------------------------------------------------*/
+div#ts-mtt-slider { position: relative; top: 10px; left: 74px; }
+
+div#ts-mtt-slider ul { list-style:none; padding: 0px; }
+
+div#ts-mtt-slider li { width: 340px; height: 520px; overflow:hidden; }
+
+div#gg-team-players-cards span#prevBtn a { position: absolute; top: 220px; left: 0px; background: url(../img/global/arrows-left.png) repeat scroll 0px 0px; display: block; overflow: hidden; height: 52px; width: 55px; text-indent: -9999px; }
+	
+div#gg-team-players-cards span#nextBtn a { position: absolute; top: 220px; left: 396px; background: url(../img/global/arrows-right.png) repeat scroll 0px 0px; display: block; overflow: hidden; height: 52px; width: 55px; text-indent: -9999px; }
+
+div.ts-mtt-player-card { float: left; width: 110px; padding: 0px 7px 5px 7px; }
+div.ts-mtt-player-card img { border: 1px solid #fff; }
+div.ts-mtt-player-card p { padding: 0px !important; margin: 0px !important; font-size: 1em !important; text-align: center; }
+div.ts-mtt-player-card p a { color: #01b5dd !important; }
+div.ts-mtt-player-card p a:hover { text-decoration: underline; }
+
+div.h4 { }
+div.mtt-min { min-height: 100em; }
+
+
+div.gg-player-card { float: left; margin: 10px 10px 0px 10px; width: 134px; }
+div.gg-player-card a { display: block; width: 130px; height: 105px; background: #ccc; border: 1px solid #fff; }
+div.gg-player-card a img { width: 130px; height: 105px; }
+div.gg-player-card p { padding: 0px !important; margin: 0px !important; font-weight: normal; font-size: 1em !important; text-align: center; }

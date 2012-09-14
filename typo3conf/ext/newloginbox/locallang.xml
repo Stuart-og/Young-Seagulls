@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Description of extension 'newloginbox'</description>
+        <type></type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="pi1_title">Better login-box</label>
+            <label index="pi1_plus_wiz_description">Adds a login box to the page (more advanced than the default)</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="pi1_title">En bedre login-boks</label>
+            <label index="pi1_plus_wiz_description">Tilføjer en login-boks til siden (mere avanceret end standardboksen)</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="pi1_title">Besseres Anmeldeformular</label>
+            <label index="pi1_plus_wiz_description">Fügt ein Anmeldeformular auf der Seite ein (verbesserte Version)</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+            <label index="pi1_title">En bedre innloggingsboks</label>
+            <label index="pi1_plus_wiz_description">Setter inn en innloggingsboks på siden (mer avansert enn standardboksen)</label>
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="pi1_title">Login box (nuovo)</label>
+            <label index="pi1_plus_wiz_description">Aggiunge un box per il login (con maggiori funzionalità rispetto il box di login standard)</label>
+        </languageKey>
+        <languageKey index="fr" type="array">
+            <label index="pi1_title">Formulaire d'identification avancé</label>
+            <label index="pi1_plus_wiz_description">Ajouter un formulaire d'identification dans la page (avancée)</label>
+        </languageKey>
+        <languageKey index="es" type="array">
+            <label index="pi1_title">Formulario de Login Mejorado</label>
+            <label index="pi1_plus_wiz_description">Agrega un formulario de login a la página (más avanzado que el predeterminado)</label>
+        </languageKey>
+        <languageKey index="nl" type="array">
+            <label index="pi1_title">Verbeterde login-box</label>
+            <label index="pi1_plus_wiz_description">Voegt een login-box toe aan de pagina (met meer mogelijkheden dan de standaard)</label>
+        </languageKey>
+        <languageKey index="cz" type="array">
+            <label index="pi1_title">Lepší přihlašovací box</label>
+            <label index="pi1_plus_wiz_description">Přidá přihlašovací box na stránku (s více možnostmi, než má základní)</label>
+        </languageKey>
+        <languageKey index="pl" type="array">
+            <label index="pi1_title">Ulepszony formularz logowania</label>
+            <label index="pi1_plus_wiz_description">Dodaje formularz logowania na stronę (bardziej zaawansowany niż standardowy)</label>
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="pi1_title">Parempi sisäänkirjoitus-boxi</label>
+            <label index="pi1_plus_wiz_description">Lisää sisäänkirjoitus-boxi sivulle (oletus boxista laajennettu)</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+            <label index="pi1_title">Daha iyi oturum açma kutusu</label>
+            <label index="pi1_plus_wiz_description">Sayfaya oturum açma kutusunu ekle (varsayılandan daha kapsamlı)</label>
+        </languageKey>
+        <languageKey index="se" type="array">
+            <label index="pi1_title">En bättre login-box</label>
+            <label index="pi1_plus_wiz_description">Gör ett inloggningsformulär på sidan (mera utvecklad än standard login-boxen)</label>
+        </languageKey>
+        <languageKey index="pt" type="array">
+            <label index="pi1_title">Janela de Acesso aprimorada</label>
+            <label index="pi1_plus_wiz_description">Adiciona um janela de acesso à página (mais avançada que a janela padrão)</label>
+        </languageKey>
+        <languageKey index="ru" type="array">
+            <label index="pi1_title">Новый вход в систему</label>
+            <label index="pi1_plus_wiz_description">Форм для в хода в систему на странице, более продвинутый вариант</label>
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+            <label index="pi1_title">Bolji login-box</label>
+            <label index="pi1_plus_wiz_description">Dodaje login box na stranicu (napredniji nego postojeći)</label>
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+            <label index="pi1_title">Login-box pitsaanerusoq</label>
+            <label index="pi1_plus_wiz_description">Quppernermut Login box-i ilanngussavaa (nalinginnaasumiit periarfissaqarnerusoq)</label>
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+            <label index="pi1_title">Caixa de Identificação Avançada</label>
+            <label index="pi1_plus_wiz_description">Adiciona uma caixa de identificação à página (mais avançada que a janela padrão)</label>
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="fr" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="es" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="nl" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="cz" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="pl" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="se" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="pt" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="ru" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+            <label index="pi1_title" type="integer">243211240</label>
+            <label index="pi1_plus_wiz_description" type="integer">92404726</label>
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

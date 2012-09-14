@@ -1,0 +1,1424 @@
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EEvie%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3ERozario-Johnson%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Ekrozariojohnson%40gmail.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070112043%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Eevierojo%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E170%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EOld+Shoreham+Road%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EShoreham-by-sea%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EWest+Sussex%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN435TE%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20110205%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => f3c2e217-28ae-4e6f-a851-291ccc0b978e
+            [TransactionID] => 71315
+            [TimeStamp] => 2012-05-14T12:00:46
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN435TE 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3ESamantha%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EGodden%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Eangie.godden%40virgin.net%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070114249%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3ELouLou2006%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E1%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EAnderson+Close%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3ENewhaven%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EEast+Sussex%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN9+9XY%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20061028%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 5823701e-ba49-4a6e-a67a-af58e31be82e
+            [TransactionID] => 71896
+            [TimeStamp] => 2012-05-16T14:26:27
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN9 9XY 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EHenry%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EYelling%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Emike_yelling%40yahoo.co.uk%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070057465%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Ehenty1%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E84%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EBalfour+Road%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3ESussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN1+6ND%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20050704%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 881d0f90-4352-4bb3-8fcf-bef828444684
+            [TransactionID] => 73637
+            [TimeStamp] => 2012-05-26T16:13:16
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN1 6ND 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EEdith%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EYelling%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Emike_yelling%40yahoo.co.uk%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070057464%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Eedith1%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E84%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EBalfour+Road%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3ESussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN1+6ND%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20050704%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 37e395b9-6e95-4967-bf3c-8e3d438dbd74
+            [TransactionID] => 73645
+            [TimeStamp] => 2012-05-26T16:27:38
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN1 6ND 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3ENathan%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EGeorge%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Enattyg09%40sky.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070114665%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Ebrighton29%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E51%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EHawswood+Drive%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EHailsham%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EEast+Sussex%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN271UP%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20030709%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 37fb2158-7bd6-46c9-b6be-2583cd39ecd9
+            [TransactionID] => 74292
+            [TimeStamp] => 2012-06-06T10:45:02
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN271UP 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EBen%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EHook%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Eed.hook%40orange.net%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070115086%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Eseagulls%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3ECoot+Cottage%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3E29+Hurn+Court%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EHurn+Court+Lane%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EChristchurch%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EDorset%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBH236BH%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20060520%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => f1124a56-a0a1-4e46-995b-5551f01099cc
+            [TransactionID] => 74469
+            [TimeStamp] => 2012-06-07T12:31:10
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BH236BH 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3Echarlie%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3Ehowell%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Eabz.howz%40gmail.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070115106%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Echillie%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E13+nelson+close%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3Elancing%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3Esompting%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3Ewest+sussex%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3Ebn150ly%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20050627%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 56fdc564-475e-44bb-b880-dc0176d5080b
+            [TransactionID] => 74522
+            [TimeStamp] => 2012-06-07T15:51:49
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => bn150ly 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EAmelia%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EPotter%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3ETerry.potter30%40btinternet.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070114181%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Eseagull%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E183%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EChurch+green%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EShoreham%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EBrighton%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EWest+Sussex%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBn436jw%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20120422%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 22f7aa34-e8fd-4e2c-a44b-d9395020b541
+            [TransactionID] => 74639
+            [TimeStamp] => 2012-06-08T20:18:44
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => Bn436jw 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3ECarly%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EPoulter%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Elisa.poulter%40ntlworld.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070060932%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Ekirby%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E50+Harebell+Drive%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EMile+Oak%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EEast+Sussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN412UZ%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20001111%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => cf450d26-4a0e-464c-8243-0164a03b4f26
+            [TransactionID] => 74649
+            [TimeStamp] => 2012-06-08T22:02:37
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN412UZ 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3ECarly%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EPoulter%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Elisa.poulter%40ntlworld.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070060932%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Ekirby%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E50+Harebell+Drive%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EMile+Oak%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EEast+Sussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN412UZ%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20001111%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => bc1238e4-2d23-42ea-baaa-cb7d94112a21
+            [TransactionID] => 74651
+            [TimeStamp] => 2012-06-08T22:02:49
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN412UZ 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EGeorge%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EMurkin%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Ejim_murkin%40hotmail.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070075004%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Egeorge%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E120%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EArdingly+Drive%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EGoring+By+Sea%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EWest+Sussex%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN124TP%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20010611%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => b9185f95-be41-4709-9bdb-93936a4d92e0
+            [TransactionID] => 75197
+            [TimeStamp] => 2012-06-14T19:51:27
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN124TP 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EHenry%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EYelling%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Emike_yelling%40yahoo.co.uk%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070057465%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Ehenry1%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E84%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3EBalfour+Road%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3ESussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN1+6ND%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20050704%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 01930dd5-519f-4f76-9fef-49f717c84f10
+            [TransactionID] => 75488
+            [TimeStamp] => 2012-06-18T20:22:21
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN1 6ND 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EOliver%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EKingsland%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Eperrykingsland%40aol.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070032186%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Eharvey75%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E78a+Bannings+Vale%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3ESaltdean%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EEast+Sussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN2+8DG%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20050601%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => d38b51aa-e67a-4ef4-a752-22d6567d4d9e
+            [TransactionID] => 75573
+            [TimeStamp] => 2012-06-19T11:17:56
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN2 8DG 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EOliver%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EKingsland%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Eperrykingsland%40aol.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070032186%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Eharvey75%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E78a+Bannings+Vale%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3ESaltdean%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EEast+Sussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN2+8DG%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20050601%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 61447f34-a18f-4c91-a09b-759c6d28d134
+            [TransactionID] => 75576
+            [TimeStamp] => 2012-06-19T11:18:17
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN2 8DG 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EOliver%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EKingsland%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Eperrykingsland%40aol.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070032186%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Eharvey75%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E78a+Bannings+Vale%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3ESaltdean%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EEast+Sussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN2+8DG%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20050601%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => 44eb9653-d939-4c46-80a1-e3e26cd4cf05
+            [TransactionID] => 75579
+            [TimeStamp] => 2012-06-19T11:21:08
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN2 8DG 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+
+
+
+-------START REQUEST-------
+
+loginId=YSG1&password=YSG1&company=YSG&XMLString=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%09%09%09%09%09%3CCustomerUpdateRequest%3E%0A%09%09%09%09%09++%3CVersion%3E1.1%3C%2FVersion%3E%0A%09%09%09%09%09++%3CTransactionHeader%3E%0A%09%09%09%09%09++++%3CSenderID%2F%3E%0A%09%09%09%09%09++++%3CReceiverID%2F%3E%0A%09%09%09%09%09++++%3CCountryCode%2F%3E%0A%09%09%09%09%09++++%3CLoginID%3EYSG1%3C%2FLoginID%3E%0A%09%09%09%09%09++++%3CPassword%3EYSG1%3C%2FPassword%3E%0A%09%09%09%09%09++++%3CCompany%3EYSG%3C%2FCompany%3E%0A%09%09%09%09%09++++%3CTransactionID%2F%3E%0A%09%09%09%09%09++%3C%2FTransactionHeader%3E%0A%09%09%09%09%09++%3CDefaults%3E%0A%09%09%09%09%09++++%3CBusinessUnit%3EUNITEDKINGDOM%3C%2FBusinessUnit%3E%0A%09%09%09%09%09++%3C%2FDefaults%3E%0A%09%09%09%09%09++%3CCustomerUpdate%3E%0A%09%09%09%09%09++++%3CSites+Total%3D%271%27%3E%0A%09%09%09%09%09++++++%3CSite+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++%3CName%3EIRIS%3C%2FName%3E%0A%09%09%09%09%09++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++%3CAddress%3E%0A%09%09%09%09%09++++++++++%3CLine1%3E%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++%3CLine2%3E%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++%3CLine3%3E%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++%3CLine4%3E%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++%3CLine5%3E%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++%3CPostCode%3E%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++%3CTelephoneNumber%2F%3E%0A%09%09%09%09%09++++++++%3CFaxNumber%2F%3E%0A%09%09%09%09%09++++++++%3CVATNumber%2F%3E%0A%09%09%09%09%09++++++++%3CURL%2F%3E%0A%09%09%09%09%09++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++%3CCRMBranch%2F%3E%0A%09%09%09%09%09++++++++%3CContacts+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++%3CContact+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++%3CTitle%3E%3C%2FTitle%3E%0A%09%09%09%09%09++++++++++++%3CInitials%3E%3C%2FInitials%3E%0A%09%09%09%09%09++++++++++++%3CForename%3EOliver%3C%2FForename%3E%0A%09%09%09%09%09++++++++++++%3CSurname%3EKingsland%3C%2FSurname%3E%0A%09%09%09%09%09++++++++++++%3CFullName%3E%3C%2FFullName%3E%0A%09%09%09%09%09++++++++++++%3CSalutation%3ETest%3C%2FSalutation%3E%0A%09%09%09%09%09++++++++++++%3CEmailAddress%3Eperrykingsland%40aol.com%3C%2FEmailAddress%3E%0A%09%09%09%09%09++++++++++++%3CLoginID%3E000070032186%3C%2FLoginID%3E%0A%09%09%09%09%09++++++++++++%3CPassword%3Eharvey68%3C%2FPassword%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber1%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CAccountNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CAddresses+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAddress+Mode%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++++%3CSequenceNumber%3E1%3C%2FSequenceNumber%3E%0A%09%09%09%09%09++++++++++++++++%3CDefault%3ETrue%3C%2FDefault%3E%0A%09%09%09%09%09++++++++++++++++%3CReference%3EDefault+Address%3C%2FReference%3E%0A%09%09%09%09%09++++++++++++++++%3CLine1%3E78a+Bannings+Vale%3C%2FLine1%3E%0A%09%09%09%09%09++++++++++++++++%3CLine2%3ESaltdean%3C%2FLine2%3E%0A%09%09%09%09%09++++++++++++++++%3CLine3%3EBrighton%3C%2FLine3%3E%0A%09%09%09%09%09++++++++++++++++%3CLine4%3EEast+Sussex%3C%2FLine4%3E%0A%09%09%09%09%09++++++++++++++++%3CLine5%3EUNITED+KINGDOM%3C%2FLine5%3E%0A%09%09%09%09%09++++++++++++++++%3CPostCode%3EBN2+8DG%3C%2FPostCode%3E%0A%09%09%09%09%09++++++++++++++++%3CCountry%3EUnited+Kingdom%3C%2FCountry%3E%0A%09%09%09%09%09++++++++++++++%3C%2FAddress%3E%0A%09%09%09%09%09++++++++++++%3C%2FAddresses%3E%0A%09%09%09%09%09++++++++++++%3CPosition%3E%3C%2FPosition%3E%0A%09%09%09%09%09++++++++++++%3CGender%3E%3C%2FGender%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber1%3E%3C%2FTelephoneNumber1%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber2%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber3%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber4%2F%3E%0A%09%09%09%09%09++++++++++++%3CTelephoneNumber5%2F%3E%0A%09%09%09%09%09++++++++++++%3CDateOfBirth%3E20050601%3C%2FDateOfBirth%3E%0A%09%09%09%09%09++++++++++++%3CContactViaMail%3EY%3C%2FContactViaMail%3E%0A%09%09%09%09%09++++++++++++%3CHTMLNewsletter%3EN%3C%2FHTMLNewsletter%3E%0A%09%09%09%09%09++++++++++++%3CSubscription1%3EN%3C%2FSubscription1%3E%0A%09%09%09%09%09++++++++++++%3CSubscription2%3EN%3C%2FSubscription2%3E%0A%09%09%09%09%09++++++++++++%3CSubscription3%3EN%3C%2FSubscription3%3E%0A%09%09%09%09%09++++++++++++%3CMailFlag1%3EN%3C%2FMailFlag1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId1%3E1234%3C%2FExternalId1%3E%0A%09%09%09%09%09++++++++++++%3CExternalId2%3E5678%3C%2FExternalId2%3E%0A%09%09%09%09%09++++++++++++%3CMessagingID%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean1%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean2%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean3%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean4%2F%3E%0A%09%09%09%09%09++++++++++++%3CBoolean5%2F%3E%0A%09%09%09%09%09++++++++++++%3CID%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID1%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID2%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID3%2F%3E%0A%09%09%09%09%09++++++++++++%3CUSERID4%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID5%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID6%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID7%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID8%2F%3E%0A%09%09%09%09%09%09%09%09++++++%3CUSERID9%2F%3E%0A%09%09%09%09%09++++++++++++%3CRestrictedPaymentTypes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CPaymentType+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FRestrictedPaymentTypes%3E%0A%09%09%09%09%09++++++++++++%3CAttributes+Total%3D%27%27%3E%0A%09%09%09%09%09++++++++++++++%3CAttribute+Mode%3D%27%27%2F%3E%0A%09%09%09%09%09++++++++++++%3C%2FAttributes%3E%0A%09%09%09%09%09++++++++++++%3CLoyaltyPoints%2F%3E%0A%09%09%09%09%09++++++++++++%3CIsLockedOut%3EFalse%3C%2FIsLockedOut%3E%0A%09%09%09%09%09++++++++++++%3CCustomerPurchaseHistory%3EFalse%3C%2FCustomerPurchaseHistory%3E%0A%09%09%09%09%09++++++++++%3C%2FContact%3E%0A%09%09%09%09%09++++++++%3C%2FContacts%3E%0A%09%09%09%09%09++++++%3C%2FSite%3E%0A%09%09%09%09%09++++%3C%2FSites%3E%0A%09%09%09%09%09++%3C%2FCustomerUpdate%3E%0A%09%09%09%09%09%3C%2FCustomerUpdateRequest%3E
+
+SimpleXMLElement Object
+(
+    [Version] => 1.1
+    [TransactionHeader] => SimpleXMLElement Object
+        (
+            [SenderID] => SimpleXMLElement Object
+                (
+                )
+
+            [ReceiverID] => SimpleXMLElement Object
+                (
+                )
+
+            [ErrorStatus] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [ErrorNumber] => 
+                        )
+
+                )
+
+            [DocumentID] => c0d9dfbf-4d36-4005-bda5-6a930bf13b8b
+            [TransactionID] => 75582
+            [TimeStamp] => 2012-06-19T11:21:48
+        )
+
+    [CustomerUpdateDetails] => SimpleXMLElement Object
+        (
+            [Response] => SimpleXMLElement Object
+                (
+                    [ReturnCode] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+            [Sites] => SimpleXMLElement Object
+                (
+                    [Site] => SimpleXMLElement Object
+                        (
+                            [Name] => SimpleXMLElement Object
+                                (
+                                )
+
+                            [SiteActionSuccess] => True
+                            [SiteAddressActionSuccess] => True
+                            [Contacts] => SimpleXMLElement Object
+                                (
+                                    [Contact] => SimpleXMLElement Object
+                                        (
+                                            [CustomerNo] => SimpleXMLElement Object
+                                                (
+                                                    [0] =>             
+                                                )
+
+                                            [AuthoriseActionSuccess] => True
+                                            [UserActionSuccess] => True
+                                            [Addresses] => SimpleXMLElement Object
+                                                (
+                                                    [Address] => SimpleXMLElement Object
+                                                        (
+                                                            [PostCode] => BN2 8DG 
+                                                            [AddressActionSuccess] => True
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+-------END REQUEST-------
+

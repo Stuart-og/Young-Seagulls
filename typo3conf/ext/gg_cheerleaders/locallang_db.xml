@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_cheerleaders'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ggcheerleaders_gallery">GG Cheerleaders Gallery</label>
+			<label index="tx_ggcheerleaders_gallery.name">Name</label>
+			<label index="tx_ggcheerleaders_gallery.description">Description</label>
+			<label index="tx_ggcheerleaders_gallery.image">Image</label>
+			<label index="tt_content.list_type_pi1">GG Cheerleaders Fun Stuff</label>
+			<label index="tt_content.list_type_pi2">GG Cheerleaders Join Us</label>
+			<label index="tt_content.list_type_pi3">GG Cheerleaders Landing Gallery</label>
+			<label index="tt_content.list_type_pi4">GG Cheerleaders Gallery Page</label>
+		</languageKey>
+	</data>
+</T3locallang>

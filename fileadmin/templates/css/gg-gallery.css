@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* a img { border: 0px; text-decoration: none; }
+a { text-decoration: none; }
+
+div.slideshow-container { position: relative; margin: 0px auto; padding: 10px; width: 440px; /*height: 440px;*/ }
+div.slideshow a.advance-link { /*background: red;*/ width: 440px; margin: 0px auto; display: block; overflow: hidden; padding: 0px !important; text-align: -9999px; /* This should be set to be at least the width of the largest image in the slideshow with padding */ }
+
+div.slideshow a.advance-link img { margin: 0px auto !important; padding: 0px !important; border: 1px solid #ddd; }
+
+div.loader,
+div.slideshow a.advance-link,
+div.caption-container { height: 285px; /* This should be set to be at least the height of the largest image in the slideshow with padding */ }
+
+div.loader { display: none; position: absolute; background-image: url('images/loader.gif'); background-repeat: no-repeat; background-position: center; }
+
+div.slideshow span.image-wrapper { display: block; position: absolute; z-index: 10; top: -10px; left: 9px; line-height: 0 !important; text-align: center; valign: center; }
+
+ul.thumbs { position: absolute; top: 10px; left: 75px; padding: 0px !important; margin: 0px !important; list-style: none; font-size: 0.1px !important; }
+ul.thumbs li { display: inline; padding: 0px 8px 0px 0px; }
+ul.thumbs li img { border: 1px solid #ddd; }
+
+div#controls div.nav-controls a.prev { position: absolute; top: -7px; left: 2px; display: block; width: 55px; height: 0px; padding: 54px 0px 0px 0px; text-indent: -9999px; overflow: hidden; line-height: 0 !important; background: url(../img/global/arrows-left.png) 0px 0px no-repeat; }
+div#controls div.nav-controls a.prev:hover { background-position: 0px -54px; }
+
+div#controls div.nav-controls a.next { position: absolute; top: -7px; left: 382px; display: block; width: 55px; height: 0px; padding: 54px 0px 0px 0px; text-indent: -9999px; overflow: hidden; line-height: 0 !important; background: url(../img/global/arrows-right.png) 0px 0px no-repeat; }
+div#controls div.nav-controls a.next:hover { background-position: 0px -54px; }
+
+img#ts-mtt-loading { margin: 0px 0px 0px 0px; }

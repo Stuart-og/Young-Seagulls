@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Texts for plugin 'user listing'</description>
+        <type></type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="listFieldHeader_username">Username:</label>
+            <label index="listFieldHeader_name">Name:</label>
+            <label index="listFieldHeader_email">Email:</label>
+            <label index="listFieldHeader_country">Country:</label>
+            <label index="listFieldHeader_city">City</label>
+            <label index="listFieldHeader_zip">Zipcode</label>
+            <label index="listFieldHeader_telephone">Telephone</label>
+            <label index="listFieldHeader_address">Address</label>
+            <label index="listFieldHeader_title">Title</label>
+            <label index="listFieldHeader_homepage">Homepage</label>
+            <label index="listFieldHeader_company">Company</label>
+            <label index="listFieldHeader_fax">Fax</label>
+            <label index="listFieldHeader_contribute">What I wish to contribute:</label>
+            <label index="listFieldHeader_personallife">My personal life:</label>
+            <label index="listFieldHeader_typo3experiences">Experience:</label>
+            <label index="listFieldHeader_image">Image:</label>
+            <label index="listFieldHeader_www">Web:</label>
+            <label index="pi_list_browseresults_prev">&lt; Previous</label>
+            <label index="pi_list_browseresults_next">Next &gt;</label>
+            <label index="pi_list_browseresults_displays">Displaying users ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Search</label>
+            <label index="singleview_created">Created:</label>
+            <label index="singleview_lastLogin">Last login:</label>
+            <label index="singleview_detailsAbout">Details about</label>
+            <label index="singleview_limitedDetailsAbout">Limited details about</label>
+            <label index="singleview_back">Back</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="listFieldHeader_username">Brugernavn:</label>
+            <label index="listFieldHeader_name">Navn:</label>
+            <label index="listFieldHeader_email">Email:</label>
+            <label index="listFieldHeader_country">Land:</label>
+            <label index="listFieldHeader_city">By:</label>
+            <label index="listFieldHeader_zip">Postnr:</label>
+            <label index="listFieldHeader_telephone">Telefon:</label>
+            <label index="listFieldHeader_address">Adresse:</label>
+            <label index="listFieldHeader_title">Titel:</label>
+            <label index="listFieldHeader_homepage">Hjemmeside:</label>
+            <label index="listFieldHeader_company">Firma:</label>
+            <label index="listFieldHeader_fax">Fax:</label>
+            <label index="listFieldHeader_contribute">Hvad jeg vil bidrage med:</label>
+            <label index="listFieldHeader_personallife">Mit personlige liv:</label>
+            <label index="listFieldHeader_typo3experiences">Erfaring:</label>
+            <label index="pi_list_browseresults_page">Side</label>
+            <label index="pi_list_browseresults_prev">&lt; Forrige</label>
+            <label index="pi_list_browseresults_next">Næste &gt;</label>
+            <label index="pi_list_browseresults_displays">Viser brugere ###SPAN_BEGIN###%s til %s&lt;/span&gt; ud af ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Søg</label>
+            <label index="singleview_created">Oprettet:</label>
+            <label index="singleview_lastLogin">Sidste login:</label>
+            <label index="singleview_detailsAbout">Detaljer om</label>
+            <label index="singleview_limitedDetailsAbout">Begrænsede detaljer om</label>
+            <label index="singleview_back">Tilbage</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="listFieldHeader_username">Benutzername:</label>
+            <label index="listFieldHeader_name">Name:</label>
+            <label index="listFieldHeader_email">Email:</label>
+            <label index="listFieldHeader_country">Land:</label>
+            <label index="listFieldHeader_city">Stadt</label>
+            <label index="listFieldHeader_zip">PLZ</label>
+            <label index="listFieldHeader_telephone">Telefon</label>
+            <label index="listFieldHeader_address">Adresse</label>
+            <label index="listFieldHeader_title">Titel</label>
+            <label index="listFieldHeader_homepage">Homepage</label>
+            <label index="listFieldHeader_company">Firma</label>
+            <label index="listFieldHeader_fax">Fax</label>
+            <label index="listFieldHeader_contribute">Was ich beitragen möchte:</label>
+            <label index="listFieldHeader_personallife">Mein Leben:</label>
+            <label index="listFieldHeader_typo3experiences">Erfahrung:</label>
+            <label index="listFieldHeader_image">Bild:</label>
+            <label index="listFieldHeader_www">Web:</label>
+            <label index="pi_list_browseresults_page">Seite</label>
+            <label index="pi_list_browseresults_prev">&lt; Vorherige</label>
+            <label index="pi_list_browseresults_next">Nächste &gt;</label>
+            <label index="pi_list_browseresults_displays">Zeige Benutzer ###SPAN_BEGIN###%s bis %s&lt;/span&gt; von insg. ###SPAN_BEGIN###%s an&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Suche</label>
+            <label index="singleview_created">Erstellt:</label>
+            <label index="singleview_lastLogin">Letzter Login:</label>
+            <label index="singleview_detailsAbout">Alle Informationen zu</label>
+            <label index="singleview_limitedDetailsAbout">Eingeschränkte Informationen zu</label>
+            <label index="singleview_back">Zurück</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+            <label index="listFieldHeader_username">Brukernavn:</label>
+            <label index="listFieldHeader_name">Navn:</label>
+            <label index="listFieldHeader_email">E-post:</label>
+            <label index="listFieldHeader_country">Land:</label>
+            <label index="listFieldHeader_city">By:</label>
+            <label index="listFieldHeader_zip">Postnr:</label>
+            <label index="listFieldHeader_telephone">Telefon:</label>
+            <label index="listFieldHeader_address">Adresse:</label>
+            <label index="listFieldHeader_title">Tittel:</label>
+            <label index="listFieldHeader_homepage">Hjemmeside:</label>
+            <label index="listFieldHeader_company">Firma:</label>
+            <label index="listFieldHeader_fax">Faks:</label>
+            <label index="listFieldHeader_contribute">Hva jeg ønsker å bidra med:</label>
+            <label index="listFieldHeader_personallife">Mitt personlige liv:</label>
+            <label index="listFieldHeader_typo3experiences">Erfaring:</label>
+            <label index="pi_list_browseresults_prev">&lt; Forrige</label>
+            <label index="pi_list_browseresults_next">Neste &gt;</label>
+            <label index="pi_list_browseresults_displays">Viser brukere ###SPAN_BEGIN###%s til %s&lt;/span&gt; av ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Søk</label>
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="listFieldHeader_username">Username:</label>
+            <label index="listFieldHeader_name">Nome:</label>
+            <label index="listFieldHeader_email">Email:</label>
+            <label index="listFieldHeader_country">Stato:</label>
+            <label index="listFieldHeader_city">Città</label>
+            <label index="listFieldHeader_zip">CAP</label>
+            <label index="listFieldHeader_telephone">Telefono</label>
+            <label index="listFieldHeader_address">Indirizzo</label>
+            <label index="listFieldHeader_title">Titolo</label>
+            <label index="listFieldHeader_homepage">Homepage</label>
+            <label index="listFieldHeader_company">Azienda</label>
+            <label index="listFieldHeader_fax">Fax</label>
+            <label index="listFieldHeader_contribute">Desidero contribuire nel seguente modo:</label>
+            <label index="listFieldHeader_personallife">La mia vita privata:</label>
+            <label index="listFieldHeader_typo3experiences">Esperienza:</label>
+            <label index="listFieldHeader_image">Immagine:</label>
+            <label index="listFieldHeader_www">Web:</label>
+            <label index="pi_list_browseresults_prev">&lt; indietro</label>
+            <label index="pi_list_browseresults_next">avanti &gt;</label>
+            <label index="pi_list_browseresults_displays">Utenti da ###SPAN_BEGIN###%s a %s&lt;/span&gt; su ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Cerca</label>
+            <label index="singleview_created">Creato:</label>
+            <label index="singleview_lastLogin">Ultimo login:</label>
+            <label index="singleview_detailsAbout">Dettagli su</label>
+            <label index="singleview_limitedDetailsAbout">Dettagli limitati</label>
+            <label index="singleview_back">Indietro</label>
+        </languageKey>
+        <languageKey index="fr" type="array">
+            <label index="listFieldHeader_username">Identifiant</label>
+            <label index="listFieldHeader_name">Nom</label>
+            <label index="listFieldHeader_email">Email</label>
+            <label index="listFieldHeader_country">Pays</label>
+            <label index="listFieldHeader_city">Ville</label>
+            <label index="listFieldHeader_zip">Code Postal</label>
+            <label index="listFieldHeader_telephone">Téléphone</label>
+            <label index="listFieldHeader_address">Adresse</label>
+            <label index="listFieldHeader_title">Titre</label>
+            <label index="listFieldHeader_homepage">Page d'accueil</label>
+            <label index="listFieldHeader_company">Société</label>
+            <label index="listFieldHeader_fax">Fax</label>
+            <label index="listFieldHeader_contribute">Mes voeux de contribution</label>
+            <label index="listFieldHeader_personallife">Moi ma vie</label>
+            <label index="listFieldHeader_typo3experiences">Expérience</label>
+            <label index="listFieldHeader_image">Photo</label>
+            <label index="listFieldHeader_www">Web</label>
+            <label index="pi_list_browseresults_prev">Précédent</label>
+            <label index="pi_list_browseresults_next">Suivant</label>
+            <label index="pi_list_browseresults_displays">Affichage des utilisateurs ###SPAN_BEGIN###%s à %s&lt;/span&gt; sur ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Rechercher</label>
+            <label index="singleview_created">Création</label>
+            <label index="singleview_lastLogin">Dernière connexion</label>
+            <label index="singleview_detailsAbout">Détails à propos de</label>
+            <label index="singleview_limitedDetailsAbout">Détails limités à propos de</label>
+            <label index="singleview_back">Retour</label>
+        </languageKey>
+        <languageKey index="es" type="array">
+            <label index="listFieldHeader_username">Nombre de usuario:</label>
+            <label index="listFieldHeader_name">Nombre:</label>
+            <label index="listFieldHeader_email">E-mail:</label>
+            <label index="listFieldHeader_country">País:</label>
+            <label index="listFieldHeader_city">Ciudad:</label>
+            <label index="listFieldHeader_zip">Código Postal:</label>
+            <label index="listFieldHeader_telephone">Teléfono:</label>
+            <label index="listFieldHeader_address">Dirección:</label>
+            <label index="listFieldHeader_title">Cargo:</label>
+            <label index="listFieldHeader_homepage">Dirección WEB:</label>
+            <label index="listFieldHeader_company">Empresa:</label>
+            <label index="listFieldHeader_fax">Fax:</label>
+            <label index="listFieldHeader_contribute">Con qué pretendo contribuir:</label>
+            <label index="listFieldHeader_personallife">Mi vida personal:</label>
+            <label index="listFieldHeader_typo3experiences">Experiencia:</label>
+            <label index="pi_list_browseresults_page">Página</label>
+            <label index="pi_list_browseresults_prev">&lt; Anterior</label>
+            <label index="pi_list_browseresults_next">Siguiente &gt;</label>
+            <label index="pi_list_browseresults_displays">Mostrando usuarios ###SPAN_BEGIN###del %s al %s&lt;/span&gt; de un total de ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Buscar</label>
+        </languageKey>
+        <languageKey index="nl" type="array">
+            <label index="listFieldHeader_username">Gebruikersnaam:</label>
+            <label index="listFieldHeader_name">Naam:</label>
+            <label index="listFieldHeader_email">Email:</label>
+            <label index="listFieldHeader_country">Land:</label>
+            <label index="listFieldHeader_city">Stad</label>
+            <label index="listFieldHeader_zip">Postcode</label>
+            <label index="listFieldHeader_telephone">Telefoon</label>
+            <label index="listFieldHeader_address">Adres</label>
+            <label index="listFieldHeader_title">Titel</label>
+            <label index="listFieldHeader_homepage">Homepage:</label>
+            <label index="listFieldHeader_company">Bedrijf</label>
+            <label index="listFieldHeader_fax">Fax:</label>
+            <label index="listFieldHeader_contribute">Wat ik wil bijdragen:</label>
+            <label index="listFieldHeader_personallife">Mijn persoonlijke leven:</label>
+            <label index="listFieldHeader_typo3experiences">Ervaring:</label>
+            <label index="listFieldHeader_image">Afbeelding:</label>
+            <label index="listFieldHeader_www">Web:</label>
+            <label index="pi_list_browseresults_prev">&lt; Vorige</label>
+            <label index="pi_list_browseresults_next">Volgende &gt;</label>
+            <label index="pi_list_browseresults_displays">Weergegeven gebruikers ###SPAN_BEGIN###%s tot %s&lt;/span&gt; van de ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Zoeken</label>
+            <label index="singleview_created">Aangemaak:</label>
+            <label index="singleview_lastLogin">Laatst ingelogd:</label>
+            <label index="singleview_detailsAbout">Details van</label>
+            <label index="singleview_limitedDetailsAbout">Beperk details van</label>
+            <label index="singleview_back">Terug</label>
+        </languageKey>
+        <languageKey index="cz" type="array">
+            <label index="listFieldHeader_username">Přihlašovací jméno:</label>
+            <label index="listFieldHeader_name">Jméno a příjmení:</label>
+            <label index="listFieldHeader_email">Email:</label>
+            <label index="listFieldHeader_country">Země:</label>
+            <label index="listFieldHeader_city">Město</label>
+            <label index="listFieldHeader_zip">PSČ</label>
+            <label index="listFieldHeader_telephone">Telefon</label>
+            <label index="listFieldHeader_address">Adresa</label>
+            <label index="listFieldHeader_title">Název</label>
+            <label index="listFieldHeader_homepage">Domovská stránka</label>
+            <label index="listFieldHeader_company">Společnost</label>
+            <label index="listFieldHeader_fax">Fax</label>
+            <label index="listFieldHeader_contribute">Na čem se chci zde podílet:</label>
+            <label index="listFieldHeader_personallife">Můj osobní život:</label>
+            <label index="listFieldHeader_typo3experiences">Zkušenosti:</label>
+            <label index="listFieldHeader_image">Obrázek:</label>
+            <label index="listFieldHeader_www">Web:</label>
+            <label index="pi_list_browseresults_prev">&lt; Předchozí</label>
+            <label index="pi_list_browseresults_next">Další &gt;</label>
+            <label index="pi_list_browseresults_displays">Zobrazuji uživatele ###SPAN_BEGIN###%s až %s&lt;/span&gt;, celkem z ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Hledání</label>
+            <label index="singleview_created">Vytvořeno:</label>
+            <label index="singleview_lastLogin">Poslední přihlášení:</label>
+            <label index="singleview_detailsAbout">Detaily</label>
+            <label index="singleview_limitedDetailsAbout">Základní detaily</label>
+            <label index="singleview_back">Zpět</label>
+        </languageKey>
+        <languageKey index="pl" type="array">
+            <label index="listFieldHeader_username">Użytkownik:</label>
+            <label index="listFieldHeader_name">Nazwa:</label>
+            <label index="listFieldHeader_email">Email:</label>
+            <label index="listFieldHeader_country">Kraj:</label>
+            <label index="listFieldHeader_city">Miasto</label>
+            <label index="listFieldHeader_zip">Kod pocztowy</label>
+            <label index="listFieldHeader_telephone">Telefon</label>
+            <label index="listFieldHeader_address">Adres</label>
+            <label index="listFieldHeader_title">Tytuł</label>
+            <label index="listFieldHeader_homepage">Strona domowa</label>
+            <label index="listFieldHeader_company">Firma</label>
+            <label index="listFieldHeader_fax">Faks</label>
+            <label index="listFieldHeader_contribute">Co chcę wnieść/czym chcę się podzielić:</label>
+            <label index="listFieldHeader_personallife">Życie prywatne:</label>
+            <label index="listFieldHeader_typo3experiences">Doświadczenie:</label>
+            <label index="listFieldHeader_image">Zdjęcie:</label>
+            <label index="listFieldHeader_www">Strona www:</label>
+            <label index="pi_list_browseresults_prev">&lt; Poprzednia</label>
+            <label index="pi_list_browseresults_next">Następna &gt;</label>
+            <label index="pi_list_browseresults_displays">Wyświetlanie użytkowników ###SPAN_BEGIN###%s do %s&lt;/span&gt; z ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Szukaj</label>
+            <label index="singleview_created">Utworzono:</label>
+            <label index="singleview_lastLogin">Ostatnie logowanie:</label>
+            <label index="singleview_detailsAbout">Szczegóły</label>
+            <label index="singleview_limitedDetailsAbout">Wybrane szczegóły</label>
+            <label index="singleview_back">Powrót</label>
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="listFieldHeader_username">Käyttäjätunnus:</label>
+            <label index="listFieldHeader_name">Nimi:</label>
+            <label index="listFieldHeader_email">Sähköpostiosoite:</label>
+            <label index="listFieldHeader_country">Maa:</label>
+            <label index="listFieldHeader_city">Kaupunki:</label>
+            <label index="listFieldHeader_zip">Postinumero:</label>
+            <label index="listFieldHeader_telephone">Puhelin:</label>
+            <label index="listFieldHeader_address">Osoite:</label>
+            <label index="listFieldHeader_title">Arvo:</label>
+            <label index="listFieldHeader_homepage">Kotisivu:</label>
+            <label index="listFieldHeader_company">Yritys;</label>
+            <label index="listFieldHeader_fax">Fax:</label>
+            <label index="listFieldHeader_contribute">Miten haluat osallsitua:</label>
+            <label index="listFieldHeader_personallife">Henkilökohtaista:</label>
+            <label index="listFieldHeader_typo3experiences">Kokemus:</label>
+            <label index="listFieldHeader_image">Kuva:</label>
+            <label index="listFieldHeader_www">Kotisivut:</label>
+            <label index="pi_list_browseresults_prev">&lt; Edellinen</label>
+            <label index="pi_list_browseresults_next">Seuraava &gt;</label>
+            <label index="pi_list_browseresults_displays">Näytän käyttäjät alkaen ###SPAN_BEGIN###%s aina %s&lt;/span&gt; saakka kaikkiaan ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Haku</label>
+            <label index="singleview_created">Luotu:</label>
+            <label index="singleview_lastLogin">Viime sisäänkirjoitus:</label>
+            <label index="singleview_detailsAbout">Tarkat tiedot</label>
+            <label index="singleview_limitedDetailsAbout">Rajoitetut tiedot</label>
+            <label index="singleview_back">Takaisin</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+            <label index="listFieldHeader_username">Kullanıcı adı:</label>
+            <label index="listFieldHeader_name">Ad/Soyad:</label>
+            <label index="listFieldHeader_email">E-posta:</label>
+            <label index="listFieldHeader_country">Ülke:</label>
+            <label index="listFieldHeader_city">Şehir</label>
+            <label index="listFieldHeader_zip">Posta kodu</label>
+            <label index="listFieldHeader_telephone">Telefon</label>
+            <label index="listFieldHeader_address">Adres</label>
+            <label index="listFieldHeader_title">Ünvan</label>
+            <label index="listFieldHeader_homepage">Website</label>
+            <label index="listFieldHeader_company">Şirket</label>
+            <label index="listFieldHeader_fax">Faks</label>
+            <label index="listFieldHeader_contribute">Ne ile katılmak istediğim:</label>
+            <label index="listFieldHeader_personallife">Özel hayatım:</label>
+            <label index="listFieldHeader_typo3experiences">Deneyim:</label>
+            <label index="listFieldHeader_image">Resim:</label>
+            <label index="listFieldHeader_www">Web:</label>
+            <label index="pi_list_browseresults_prev">&lt; Önceki</label>
+            <label index="pi_list_browseresults_next">Sonraki &gt;</label>
+            <label index="pi_list_browseresults_displays">###SPAN_BEGIN###%s-%s&lt;/span&gt; arası kayıtlar, toplam ###SPAN_BEGIN###%s&lt;/span&gt; kayıt</label>
+            <label index="pi_list_searchBox_search">Ara</label>
+            <label index="singleview_created">Oluşturma tarihi:</label>
+            <label index="singleview_lastLogin">Son oturum açma:</label>
+            <label index="singleview_detailsAbout">Hakkında ayrıntılar</label>
+            <label index="singleview_limitedDetailsAbout">Hakkında kısıtlı ayrıntılar</label>
+            <label index="singleview_back">Geri</label>
+        </languageKey>
+        <languageKey index="se" type="array">
+            <label index="listFieldHeader_username">Användarnamn:</label>
+            <label index="listFieldHeader_name">Namn:</label>
+            <label index="listFieldHeader_email">Epost:</label>
+            <label index="listFieldHeader_country">Land:</label>
+            <label index="listFieldHeader_city">Postadress</label>
+            <label index="listFieldHeader_zip">Postnummer</label>
+            <label index="listFieldHeader_telephone">Telefon</label>
+            <label index="listFieldHeader_address">Adress</label>
+            <label index="listFieldHeader_title">Titel</label>
+            <label index="listFieldHeader_homepage">Hemsida</label>
+            <label index="listFieldHeader_company">Företag</label>
+            <label index="listFieldHeader_fax">Fax</label>
+            <label index="listFieldHeader_contribute">Hur jag vill delta:</label>
+            <label index="listFieldHeader_personallife">Mitt personliga liv:</label>
+            <label index="listFieldHeader_typo3experiences">Erfarenhet:</label>
+            <label index="pi_list_browseresults_prev">&lt; Tidigare</label>
+            <label index="pi_list_browseresults_next">Nästa &gt;</label>
+            <label index="pi_list_browseresults_displays">Visar användare ###SPAN_BEGIN###%s till %s&lt;/span&gt; av ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Sök</label>
+        </languageKey>
+        <languageKey index="pt" type="array">
+            <label index="listFieldHeader_username">Utilizador:</label>
+            <label index="listFieldHeader_name">Nome:</label>
+            <label index="listFieldHeader_email">E-mail:</label>
+            <label index="listFieldHeader_country">País:</label>
+            <label index="listFieldHeader_city">Cidade</label>
+            <label index="listFieldHeader_zip">Código Postal</label>
+            <label index="listFieldHeader_telephone">Telefone</label>
+            <label index="listFieldHeader_address">Endereço</label>
+            <label index="listFieldHeader_title">Título</label>
+            <label index="listFieldHeader_homepage">Homepage</label>
+            <label index="listFieldHeader_company">Compania</label>
+            <label index="listFieldHeader_fax">Fax</label>
+            <label index="listFieldHeader_contribute">Em que eu quero contribuir:</label>
+            <label index="listFieldHeader_personallife">Minha vida:</label>
+            <label index="listFieldHeader_typo3experiences">Experiência:</label>
+            <label index="pi_list_browseresults_prev">&lt; Anterior</label>
+            <label index="pi_list_browseresults_next">Próxima &gt;</label>
+            <label index="pi_list_browseresults_displays">Mostrando utilizadores de ###SPAN_BEGIN###%s a %s&lt;/span&gt; de um total de ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Pesquisar</label>
+        </languageKey>
+        <languageKey index="ru" type="array">
+            <label index="listFieldHeader_username">Имя пользователя:</label>
+            <label index="listFieldHeader_name">Ваше имя и фамилия:</label>
+            <label index="listFieldHeader_email">Email (адрес электронной почты):</label>
+            <label index="listFieldHeader_country">Страна:</label>
+            <label index="listFieldHeader_city">Город</label>
+            <label index="listFieldHeader_zip">Почтовый индекс</label>
+            <label index="listFieldHeader_telephone">Телефон</label>
+            <label index="listFieldHeader_address">Почтовый адрес</label>
+            <label index="listFieldHeader_title">Титул, звание</label>
+            <label index="listFieldHeader_homepage">Адрес веб-сайта</label>
+            <label index="listFieldHeader_company">Название компании</label>
+            <label index="listFieldHeader_fax">Телефакс</label>
+            <label index="listFieldHeader_contribute">Пожелания:</label>
+            <label index="listFieldHeader_personallife">Анкета:</label>
+            <label index="listFieldHeader_typo3experiences">Опыт:</label>
+            <label index="listFieldHeader_image">Фотография:</label>
+            <label index="listFieldHeader_www">Адрес веб-сайта:</label>
+            <label index="pi_list_browseresults_prev">&lt; предыдущие</label>
+            <label index="pi_list_browseresults_next">следующие &gt;</label>
+            <label index="pi_list_browseresults_displays">Отображение пользователей ###SPAN_BEGIN###%s по %s&lt;/span&gt; из ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Поиск</label>
+            <label index="singleview_created">Создана:</label>
+            <label index="singleview_lastLogin">Последний вход:</label>
+            <label index="singleview_detailsAbout">Информация о</label>
+            <label index="singleview_limitedDetailsAbout">Ограниченная информация о</label>
+            <label index="singleview_back">Назад</label>
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+            <label index="listFieldHeader_username">Korisničko ime:</label>
+            <label index="listFieldHeader_name">Ime</label>
+            <label index="listFieldHeader_email">E-mail:</label>
+            <label index="listFieldHeader_country">Država:</label>
+            <label index="listFieldHeader_city">Grad</label>
+            <label index="listFieldHeader_zip">Poštanski broj</label>
+            <label index="listFieldHeader_telephone">Telefon</label>
+            <label index="listFieldHeader_address">Adresa</label>
+            <label index="listFieldHeader_title">Naslov</label>
+            <label index="listFieldHeader_homepage">Home stranica</label>
+            <label index="listFieldHeader_company">Tvrtka</label>
+            <label index="listFieldHeader_fax">Faks</label>
+            <label index="listFieldHeader_contribute">Što želim raditi:</label>
+            <label index="listFieldHeader_personallife">Privatni život:</label>
+            <label index="listFieldHeader_typo3experiences">Iskustvo:</label>
+            <label index="listFieldHeader_image">Slika:</label>
+            <label index="listFieldHeader_www">Web:</label>
+            <label index="pi_list_browseresults_prev">&lt; Prethodna</label>
+            <label index="pi_list_browseresults_next">Sljedeća &gt;</label>
+            <label index="pi_list_browseresults_displays">prikazujem korisnike od ###SPAN_BEGIN###%s do %s&lt;/span&gt; od ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Traži</label>
+            <label index="singleview_created">Napravljano_</label>
+            <label index="singleview_lastLogin">Zadnja prijava:</label>
+            <label index="singleview_detailsAbout">Detaljnije o</label>
+            <label index="singleview_limitedDetailsAbout">Ograničeni detalji o</label>
+            <label index="singleview_back">Natrag</label>
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+            <label index="listFieldHeader_username">Atuisup aqqa:</label>
+            <label index="listFieldHeader_name">Ateq:</label>
+            <label index="listFieldHeader_email">Email:</label>
+            <label index="listFieldHeader_country">Nuna:</label>
+            <label index="listFieldHeader_city">Illoqarfik:</label>
+            <label index="listFieldHeader_zip">Postnormu:</label>
+            <label index="listFieldHeader_telephone">Oqarasuaat:</label>
+            <label index="listFieldHeader_address">Adresse:</label>
+            <label index="listFieldHeader_title">Atorfik:</label>
+            <label index="listFieldHeader_homepage">Nittartagaq:</label>
+            <label index="listFieldHeader_company">Suliffik:</label>
+            <label index="listFieldHeader_fax">Fax:</label>
+            <label index="listFieldHeader_contribute">Imatut tapeeqataarusuppunga:</label>
+            <label index="listFieldHeader_personallife">Inuttut inuunera:</label>
+            <label index="listFieldHeader_typo3experiences">Misilittakkakka:</label>
+            <label index="pi_list_browseresults_prev">&lt; Siulia</label>
+            <label index="pi_list_browseresults_next">Tullia &gt;</label>
+            <label index="pi_list_browseresults_displays">Atuisut ###SPAN_BEGIN###%s&lt;/span&gt; akornanni ###SPAN_BEGIN###%s-miit %s-mut&lt;/span&gt; takutinneqarput</label>
+            <label index="pi_list_searchBox_search">Ujaruk</label>
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+            <label index="listFieldHeader_username">Usuário:</label>
+            <label index="listFieldHeader_name">Nome:</label>
+            <label index="listFieldHeader_email">E-Mail:</label>
+            <label index="listFieldHeader_country">País:</label>
+            <label index="listFieldHeader_city">Cidade</label>
+            <label index="listFieldHeader_zip">CEP</label>
+            <label index="listFieldHeader_telephone">Telefone</label>
+            <label index="listFieldHeader_address">Endereço</label>
+            <label index="listFieldHeader_title">Título</label>
+            <label index="listFieldHeader_homepage">Homepage</label>
+            <label index="listFieldHeader_company">Empresa</label>
+            <label index="listFieldHeader_fax">Fax</label>
+            <label index="listFieldHeader_contribute">Em que eu quero contribuir:</label>
+            <label index="listFieldHeader_personallife">Minha vida:</label>
+            <label index="listFieldHeader_typo3experiences">Experiência:</label>
+            <label index="listFieldHeader_image">Imagem:</label>
+            <label index="listFieldHeader_www">Website:</label>
+            <label index="pi_list_browseresults_prev">&lt; Anterior</label>
+            <label index="pi_list_browseresults_next">Próxima &gt;</label>
+            <label index="pi_list_browseresults_displays">Exibindo usuários de ###SPAN_BEGIN###%s a %s&lt;/span&gt; de um total de ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+            <label index="pi_list_searchBox_search">Pesquisar</label>
+            <label index="singleview_created">Criação</label>
+            <label index="singleview_lastLogin">Último login:</label>
+            <label index="singleview_detailsAbout">Detalhes sobre</label>
+            <label index="singleview_limitedDetailsAbout">Resumo sobre</label>
+            <label index="singleview_back">Voltar</label>
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="pi_list_browseresults_page" type="integer">222419149</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_page" type="integer">222419149</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="fr" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="es" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="pi_list_browseresults_page" type="integer">222419149</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+        </languageKey>
+        <languageKey index="nl" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="cz" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="pl" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="se" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+        </languageKey>
+        <languageKey index="pt" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+        </languageKey>
+        <languageKey index="ru" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+            <label index="listFieldHeader_username" type="integer">212632006</label>
+            <label index="listFieldHeader_name" type="integer">81871034</label>
+            <label index="listFieldHeader_email" type="integer">111272549</label>
+            <label index="listFieldHeader_country" type="integer">258260574</label>
+            <label index="listFieldHeader_city" type="integer">92079470</label>
+            <label index="listFieldHeader_zip" type="integer">235854055</label>
+            <label index="listFieldHeader_telephone" type="integer">187309708</label>
+            <label index="listFieldHeader_address" type="integer">232242979</label>
+            <label index="listFieldHeader_title" type="integer">192455458</label>
+            <label index="listFieldHeader_homepage" type="integer">54130594</label>
+            <label index="listFieldHeader_company" type="integer">29846719</label>
+            <label index="listFieldHeader_fax" type="integer">159451810</label>
+            <label index="listFieldHeader_contribute" type="integer">155745926</label>
+            <label index="listFieldHeader_personallife" type="integer">119061317</label>
+            <label index="listFieldHeader_typo3experiences" type="integer">238874428</label>
+            <label index="listFieldHeader_image" type="integer">73502731</label>
+            <label index="listFieldHeader_www" type="integer">124130031</label>
+            <label index="pi_list_browseresults_prev" type="integer">20121992</label>
+            <label index="pi_list_browseresults_next" type="integer">232350798</label>
+            <label index="pi_list_browseresults_displays" type="integer">263371866</label>
+            <label index="pi_list_searchBox_search" type="integer">20138052</label>
+            <label index="singleview_created" type="integer">97474279</label>
+            <label index="singleview_lastLogin" type="integer">210202371</label>
+            <label index="singleview_detailsAbout" type="integer">162457400</label>
+            <label index="singleview_limitedDetailsAbout" type="integer">23194988</label>
+            <label index="singleview_back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

@@ -1,0 +1,55 @@
+h1#gg-fanzone-title {
+	position: relative;
+	left: -30px;
+	display: block;
+	width: 190px;
+	height: 0px;
+	padding: 74px 0px 0px;
+	margin: -40px 0px 0px !important;
+	overflow: hidden;
+	background: url("../img/fanzone/messageboard-title-small.png") no-repeat 0px 0px; 
+}
+
+div.gg-offer-panel { margin: 33px 0px 0px 0px; }
+
+/* Messages Big */
+#gg-messages-small { background: url(../img/fanzone/messageboard-big-bg.png) no-repeat; width: 458px; display: block; margin: 10px 0 15px 2px; }
+#gg-messages-small-top { background: url(../img/fanzone/latestmessage-title-small.png) no-repeat; width: 188px; height: 83px; top: -5px; left: -8px; position: relative; z-index: 3000 }
+#gg-message-small-container { margin-top: -25px; position: relative; }
+.message-small { width: 423px; margin: 0 8px 20px 8px; background: #072a53 url(../img/fanzone/message-small-bg.png) top center repeat-x; padding: 7px; border: 1px solid #49cdec; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75); }
+.message-small h3 { font-size: 1.1em; color: #FFF; margin: 0 0 5px 0; background: url(../img/fanzone/icon-commenttitle.png) no-repeat left center; padding-left: 1.4em; }
+.message-small p { margin: 0; font-size: 1.1em; line-height: 120%; color: #FFF; }
+.message-small .tools { text-align: right; border-top: 2px groove #3f81bf; padding: 3px 0 0 0; margin: 3px 0 0 0; }
+.message-small a { color: #49cdec; text-decoration: none; }
+.message-small .like { background: url(../img/fanzone/icon-like.png) no-repeat left center; padding-left: 1.4em; }
+.message-small .comment { background: url(../img/fanzone/icon-comment.png) no-repeat left center; padding-left: 1.2em; }
+.message-small .report { background: url(../img/fanzone/icon-report.png) no-repeat left center; padding-left: 0.6em; }
+#gg-messages-small .bottom-panel-bg { position: relative; left: 6px; top: 4px; /*height: 94px;*/ background: url(../img/global/to-action-big-bg.png) no-repeat; }
+#gg-messages-small textarea { width: 420px; height: 36px; padding: 5px; margin: 8px 0 0 0; border: 1px solid #7cdbff; font-family: Arial, Helvetica, sans-serif; font-size: 1.2em; color: #666; }
+
+
+div#gg-message-bottom-panel { margin: 5px 0px 0px 6px; }
+
+
+div#gg-message-top-bg { width: 449px; height: 4px; overflow: hidden; background: url(../img/fanzone/gg-big-message-top-bg.png); }
+div#gg-message-middle-bg { width: 449px; padding: 0px 0px 4px 0px; background: url(../img/fanzone/gg-big-message-middle-bg.png); }
+div#gg-message-bottom-bg { width: 449px; height: 4px; overflow: hidden; background: url(../img/fanzone/gg-big-message-bottom-bg.png); }
+
+div#gg-message-middle-bg p { padding: 10px 0px 0px 10px; }
+div#gg-message-middle-bg p a { font-weight: bold; text-decoration: none; color: #fff; }
+div#gg-message-middle-bg p a:hover { text-decoration: underline; }
+
+div#gg-message-middle-bg form { padding: 0px 0px 0px 8px !important; }
+div#gg-message-middle-bg form p { padding: 0px 0px 5px 0px !important; margin: 0px !important; }
+div#gg-message-middle-bg form p a { color: #fff; text-decoration: none; }
+div#gg-message-middle-bg form p a:hover { text-decoration: underline; }
+
+div#gg-message-middle-bg form p a.button { font-weight: normal; font-size: 1em; color: #003e7f !important; }
+div#gg-message-middle-bg form p a.button:hover { text-decoration: none; }
+div#gg-message-middle-bg h3 { margin: 0px !important; !important; padding: 6px 0px 6px 0px; }
+
+/* Comment form */
+div.gg-comment-form { display: none; }
+div.gg-comment-form form {  }
+div.gg-comment-form form textarea { width: 410px !important; }
+div.gg-comment-form input.gg-message-form-send { margin: 5px 0px 0px 0px; }

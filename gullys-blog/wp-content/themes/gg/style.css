@@ -1,0 +1,66 @@
+/*
+Theme Name: Gully's Gang Blog
+Theme URI: http://www.aespec.co.uk/
+Description: Default blog theme for Gully's Gang.
+Version: 1.0
+Author: Dean Hayden
+Author URI: http://www.deanhayden.co.uk/
+Tags: blue, custom header, fixed width, two columns, widgets, BHAFC
+
+	Gully's Gang v1.0
+	
+	This theme was designed and built by Dean Hayden,
+	whose blog you will find at http://www.aespec.co.uk/blog/
+*/
+
+
+/* Side Bar 
+----------------------------------------------------------------------------------------------------------------------------*/
+div#sidebar { }
+div#sidebar ul { padding: 0px; margin: 0 0 0.5em 0; }
+div#sidebar li { list-style: none; font-size: 0.8em; line-height: 100%;  }
+div#sidebar li a { background: #7cd0ef url(images/side-li-bg.png) center center; display: block; margin: 0 0 1px 0; padding: 6px 9px; color: #006fb7; text-decoration: none; font-weight: bold; font-size: 0.9em; text-transform: uppercase; text-shadow: 0 -1px 1px rgba(168,224,245,0.5); -webkit-border-radius: 5px; border: 1px solid #3cacdd;  }
+div#sidebar li a:hover { background: #a8e0f5; }
+div#sidebar li h2 { font-size: 2em; margin: 0 0 0.5em 0; }
+
+/* Date 
+----------------------------------------------------------------------------------------------------------------------------*/
+.date { width: 60px; height: 60px; display: block; background: #006fb7; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75); float: left; margin: 0 20px 2em 0; }
+.date .day { font-size: 2.5em; font-weight: bold; text-align: center; display: block; background: #c0e5fa; padding: 7px 0; color: #006fb7; line-height: 100%; text-shadow: 0 -1px 1px rgba(255,255,255,0.5); }
+.date .month { font-size: 0.8em; font-weight: bold; text-align: center; display: block; color: #c0e5fa; padding: 5px 0 0 0; line-height: 100%; }
+
+/* Blog Typography
+----------------------------------------------------------------------------------------------------------------------------*/
+h1 a { text-decoration: none; text-shadow: 0 -1px 1px rgba(168,224,245,0.75); }
+
+/* Blog Structure
+----------------------------------------------------------------------------------------------------------------------------*/
+.entry { clear: both; float: left; }
+.postmetadata { border-top: solid 1px #CCC; background: #F5F5F5; border-bottom: solid 1px #CCC; padding: 10px; clear: both; font-size: 1.2em; margin-bottom: 20px; }
+div.button a { background: url(images/standard-button.png) no-repeat; width: 140px; height: 11px; display: block; color: #0968b4; text-decoration: none; text-align: center; font-size: 1.2em; line-height: 100%; font-weight: bold; padding: 8px 5px; }
+div.button a:hover { background-position: 0px -27px; }
+.navigation { clear: both; width: 100%; }
+.alignleft { float: left; }
+.alignright { float: right; }
+img.alignleft, img.attached-image { float: left; border: 1px solid #999; margin: 0 20px 20px 0; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75); }
+img.alignright { float: right; border: 1px solid #999; margin: 0 0 20px 20px; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75); }
+
+/* Comments
+----------------------------------------------------------------------------------------------------*/
+.commentlist { padding: 0px; font-size: 1.2em; }
+input { color: #333; font-family: Arial, Helvetica, sans-serif; font-size: 1em; clear: both; float: right; background: #FFF; line-height: 100%; width: 55%; border: 1px solid #9b9b9b; -webkit-border-radius: 5px; -moz-border-radius: 5px; padding: 4px 6px; }
+#commentform p { clear: both; margin-bottom: 0.7em; }
+#commentform textarea { width: 98%; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 1em; border: 1px solid #9b9b9b; -webkit-border-radius: 5px; padding: 4px 6px; }
+#commentform #submit { background: url(images/standard-button.png) no-repeat; width: 151px; height: 27px; display: block; color: #0968b4; text-decoration: none; text-align: center; font-size: 0.8em; line-height: 100%; font-weight: bold; padding: 8px 0px; border: none; -webkit-border-radius: 0px; -moz-border-radius: 0px; }
+.comment-body a { font-size: 1.2em; }
+cite { font-style: normal; }
+.comment-meta { font-weight: bold; }
+.commentlist { margin-bottom: 2em; }
+.comment { background: #e3f9fe; list-style: none; border: 1px solid #c9eff8; margin: 0 0 5px 0; padding: 1em 1em 0 1em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.comment p { font-size: 1.2em; color: #333; }
+.comment a { color: #2f0e32; }
+.avatar { float: left; margin-right: 10px; }
+
+/* Added by DK */
+a.gg-post-read-more { font-size: 1.2em; font-weight: bold; text-decoration: none; }
+a.gg-post-read-more:hover { text-decoration: underline !important; }

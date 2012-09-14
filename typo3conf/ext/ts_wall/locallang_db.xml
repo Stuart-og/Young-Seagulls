@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ts_wall'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">TS Home Wall</label>
+			<label index="tt_content.list_type_pi2">TS Main Wall</label>
+			<label index="tx_tswall_posts">TS Wall Posts</label>
+			<label index="tx_tswall_posts.user_uid">User</label>
+			<label index="tx_tswall_posts.message">Message</label>
+			<label index="tx_tswall_posts.response_to">Response To</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,9 @@
+<?php
+
+	$db = new mysqli('localhost', 'root', '', 'bhafc2');
+	
+	if( $db->connect_error ){
+		echo "Error: ".$db->connect_error;
+		}
+		
+	$db->query("INSERT INTO fe_users (pid, username, password, usergroup, name, address, email, zip) VALUES ('28', '000012345678', 'testpassword', '1', 'stuart miller', '52b Nesbitt Road', 'stuartjamesmiller@gmail.com', 'BN2 4BL')");

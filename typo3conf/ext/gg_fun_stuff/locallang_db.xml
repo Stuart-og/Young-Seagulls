@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_fun_stuff'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">GG Fun Stuff Colouring In Slider</label>
+			<label index="tt_content.list_type_pi2">GG Fun Stuff Desktops Slider</label>
+			<label index="tx_ggfunstuff_funstuff">GG Fun Stuff</label>
+			<label index="tx_ggfunstuff_funstuff.name">Name</label>
+			<label index="tx_ggfunstuff_funstuff.file">File</label>
+			<label index="tx_ggfunstuff_funstuff.thumbnail">Thumbnail</label>
+			<label index="tx_ggfunstuff_funstuff.description">Description</label>
+			<label index="tx_ggfunstuff_funstuff.colouring_in">Colouring In</label>
+			<label index="tx_ggfunstuff_funstuff.desktop">Desktop</label>
+			<label index="tx_ggfunstuff_funstuff.cheerleaders">Cheerleaders</label>
+		</languageKey>
+	</data>
+</T3locallang>

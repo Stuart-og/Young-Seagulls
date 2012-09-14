@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_meet_the_team'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">GG Meet the Team Home Panel</label>
+			<label index="tt_content.list_type_pi2">GG Meet the Team Page</label>
+			<label index="tt_content.list_type_pi3">GG Meet the Team Player Page</label>
+			<label index="tx_ggmeettheteam_players">GG Meet the Team Players</label>
+			<label index="tx_ggmeettheteam_players.firstname">First Name</label>
+			<label index="tx_ggmeettheteam_players.lastname">Last Name</label>
+			<label index="tx_ggmeettheteam_players.number">Squad Number</label>
+			<label index="tx_ggmeettheteam_players.position">Position</label>
+			<label index="tx_ggmeettheteam_players.biog">Biography</label>
+			<label index="tx_ggmeettheteam_players.email">Email Address</label>
+			<label index="tx_ggmeettheteam_players.pics">Pictures</label>
+			<label index="tx_ggmeettheteam_players.rating">Rating</label>
+			<label index="tx_ggmeettheteam_players.nationality">Nationality</label>
+			<label index="tx_ggmeettheteam_players.nickname">Nick name</label>
+			<label index="tx_ggmeettheteam_players.dob">Date of Birth</label>
+			<label index="tx_ggmeettheteam_players.special">Special Skills</label>
+			<label index="tx_ggmeettheteam_players.hobbies">Hobbies</label>
+			<label index="tx_ggmeettheteam_players.music">Favourite Music</label>
+			<label index="tx_ggmeettheteam_players.sporting_idol">Sporting Idol</label>
+			<label index="tx_ggmeettheteam_players.player_type.I.0">Goalkeeper</label>
+			<label index="tx_ggmeettheteam_players.player_type.I.1">Defender</label>
+			<label index="tx_ggmeettheteam_players.player_type.I.2">Midfield</label>
+			<label index="tx_ggmeettheteam_players.player_type.I.3">Attack</label>
+			<label index="tx_ggmeettheteam_players.player_type">Type of player</label>
+		</languageKey>
+	</data>
+</T3locallang>

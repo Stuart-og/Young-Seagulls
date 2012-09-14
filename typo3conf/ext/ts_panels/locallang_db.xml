@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ts_panels'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">TS Meet the Team Panel</label>
+			<label index="tt_content.list_type_pi2">TS Stadium Panel</label>
+			<label index="tt_content.list_type_pi3">TS Live Chat Panel</label>
+			<label index="tt_content.list_type_pi4">TS Stadium Education Panel</label>
+			<label index="tt_content.list_type_pi5">TS Stadium Downloads Panel</label>
+			<label index="tt_content.list_type_pi6">TS Stadium Webcam Panel</label>
+		</languageKey>
+	</data>
+</T3locallang>

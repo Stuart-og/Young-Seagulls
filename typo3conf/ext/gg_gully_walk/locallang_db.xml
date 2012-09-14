@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_gully_walk'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_gggullywalk_gw">GG Gully Walk</label>
+			<label index="tx_gggullywalk_gw.walk_type.I.0">Hi-Five</label>
+			<label index="tx_gggullywalk_gw.walk_type.I.1">Moonwalk</label>
+			<label index="tx_gggullywalk_gw.walk_type.I.2">Bodypop</label>
+			<label index="tx_gggullywalk_gw.walk_type.I.3">Hand on eyes</label>
+			<label index="tx_gggullywalk_gw.walk_type.I.4">Wave</label>
+			<label index="tx_gggullywalk_gw.walk_type.I.5">Wink</label>
+			<label index="tx_gggullywalk_gw.walk_type">Walk Type</label>
+			<label index="tx_gggullywalk_gw.speech_bubble">Logged in Speech Bubble Text</label>
+			<label index="tx_gggullywalk_gw.speech_bubble_not_in">Not logged in Speech Bubble</label>
+			<label index="tx_gggullywalk_gw.page">Page</label>
+			<label index="tt_content.list_type_pi1">GG Gully Walk</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:70:"typo3conf/ext/gg_game/locallang_db.xml|24-08-2011 12:44:03|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:4:{s:16:"tx_gggame_scores";s:14:"GG Game Scores";s:25:"tx_gggame_scores.username";s:8:"Username";s:22:"tx_gggame_scores.score";s:5:"Score";s:24:"tt_content.list_type_pi1";s:7:"GG Game";}}}

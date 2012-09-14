@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_photos'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">GG Photos</label>
+			<label index="tx_ggphotos_uploads">Uploaded Pictures</label>
+			<label index="tx_ggphotos_uploads.file_name">File name</label>
+			<label index="tx_ggphotos_uploads.user_uid">User</label>
+			<label index="tx_ggphotos_uploads.type.I.0">Photo</label>
+			<label index="tx_ggphotos_uploads.type.I.1">Drawing</label>
+			<label index="tx_ggphotos_uploads.type">Type</label>
+			<label index="tx_ggphotos_uploads.special_type.I.0">Normal</label>
+			<label index="tx_ggphotos_uploads.special_type.I.1">Winner</label>
+			<label index="tx_ggphotos_uploads.special_type">Special Type</label>
+			<label index="tx_ggphotos_uploads.special_title">Special Title</label>
+			<label index="tx_ggphotos_featured">Featured Photos</label>
+			<label index="tx_ggphotos_featured.title">Feature Reason</label>
+			<label index="tx_ggphotos_featured.selection">Selected Image</label>
+		</languageKey>
+	</data>
+</T3locallang>

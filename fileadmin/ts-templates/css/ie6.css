@@ -1,0 +1,2 @@
+/* PNG Fix */
+.imgalpha, #logo, #jointoday { behavior: url(http://bhafc/fileadmin/ts-templates/css/iepngfix.htc); }

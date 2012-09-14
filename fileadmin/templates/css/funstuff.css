@@ -1,0 +1,51 @@
+/* Titles
+----------------------------------------------------------------------------------------------------------------------------*/
+h1#gg-funstuff-title { background: url(../img/funstuff/h1-title-funstuff.png) no-repeat; width: 152px; height: 0px; display: block; padding: 134px 0 0 0; overflow: hidden; position: relative; left: -30px; margin: -40px 0 -90px 0!important; }
+h2#gg-colouringin-title { background: url(../img/funstuff/h2-title-colouringin.png) no-repeat; width: 226px; height: 0px; display: block; padding: 72px 0 0 0; overflow: hidden; position: relative; left: -30px; margin: -10px 0 0px 0!important; }
+h2#gg-desktops-title { background: url(../img/funstuff/h2-title-desktops.png) no-repeat; width: 190px; height: 0px; display: block; padding: 74px 0 0 0; overflow: hidden; position: relative; left: -30px; top: 10px; }
+
+/* Intro
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-intro-bg p { margin: 0 0 0 135px }
+
+/* Common
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-common-middle { padding-bottom: 20px!important; }
+#gg-common-middle p { font-size: 1.4em; font-weight: bold; color: #003e7f; }
+
+/* Fan Zone
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-fan-panel { margin-top: 0px; }
+
+/* Colouring in and Desktop imgs
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-colouringin-thumbs, #gg-desktops-thumbs { text-align: center; margin: 15px 0 0 0; width: 635px; }
+#gg-colouringin-thumbs img, #gg-desktops-thumbs img { margin: 0 7px; float: left; border: 1px solid #006fb7; }
+#gg-colouringin-thumbs img:hover, #gg-desktops-thumbs img:hover { border-color: #01b5dd; }
+#gg-colouringin-thumbs .leftarrow, #gg-colouringin-thumbs .rightarrow, #gg-desktops-thumbs .leftarrow, #gg-desktops-thumbs .rightarrow { margin-top: 20px; }
+
+div.tx-ggfunstuff-pi1,
+div.tx-ggfunstuff-pi2 { position: relative; }
+
+div.gg-fun-stuff-slider {  }
+div.gg-fun-stuff-slider ul { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 60px; }
+div.gg-fun-stuff-slider ul li { display: block; width: 560px; }
+div.gg-fun-stuff-slider ul li a { padding: 0px 10px 0px 0px; }
+div.gg-fun-stuff-slider ul li a.gg-fun-stuff-thumb {  }
+div.gg-fun-stuff-slider ul li a.gg-fun-stuff-thumb img { border: 1px solid #003e7f; }
+
+span#gg-colouring-in-prev,
+span#gg-desktops-prev { position: absolute; z-index: 10; top: 25px; left: 0px; }
+span#gg-colouring-in-prev a,
+span#gg-desktops-prev a { background: url(../img/global/arrows-left.png) no-repeat 0px 0px; display: block; height: 0; overflow: hidden; padding: 54px 0 0; width:55px; z-index:10; text-indent: -9999px; }
+
+span#gg-colouring-in-next,
+span#gg-desktops-next { position: absolute; z-index: 10; top: 25px; left: 555px; }
+span#gg-colouring-in-next a,
+span#gg-desktops-next a { background: url(../img/global/arrows-right.png) no-repeat 0px 0px; display: block; height: 0; overflow: hidden; padding: 54px 0 0; width:55px; z-index:10; text-indent: -9999px; }
+
+div#flash { position: absolute; left: 0px; top: 100%; margin-left: 0px; margin-top: -400px; z-index: 1000; }
+
+#win{
+	margin:0px !important;
+	}

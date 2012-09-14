@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:79:"typo3conf/ext/ts_about_gallery/locallang_db.xml|09-08-2011 09:02:35|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:4:{s:24:"tx_tsaboutgallery_images";s:23:"TS About Gallery Images";s:29:"tx_tsaboutgallery_images.name";s:4:"Name";s:30:"tx_tsaboutgallery_images.files";s:5:"Files";s:24:"tt_content.list_type_pi1";s:16:"TS About Gallery";}}}

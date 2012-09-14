@@ -1,0 +1,72 @@
+/* Login box (typo3 extension)
+----------------------------------------------------------------------------------------------------------------------------*/
+div.tx-loginboxmacmade-pi1 { position: relative; }
+div.tx-loginboxmacmade-pi1 h2 { display: none; }
+
+div.tx-loginboxmacmade-pi1-welcome { display: none; }
+
+div.gg-login-form-row { padding: 10px 0px 0px 0px; }
+div.gg-login-form-row div.tx-loginboxmacmade-pi1-labelCell { width: 90px; font-size: 1.4em; color: #003e7f; font-weight: bold; }
+div.gg-login-form-row div.tx-loginboxmacmade-pi1-fieldCell {  }
+div.gg-login-form-row div.tx-loginboxmacmade-pi1-fieldCell input { /*width: 202px; height: 17px; padding: 3px 0px 0px 3px; background: url(../img/global/text-input.gif) 0px 0px repeat; border: 0px;*/ }
+
+
+input.submit {
+width: 91px;
+height: 27px;
+background: url("../img/global/standard-button.png") repeat scroll 0 0 transparent;
+color: #0968B4;
+display: block;
+font-size: 1.2em;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+border: 0px;
+}
+
+
+div.tx-loginboxmacmade-pi1-error { font-size: 1.2em; font-weight: bold; }
+
+
+/*
+<div class="tx-loginboxmacmade-pi1">
+	
+	<h2 class="tx-loginboxmacmade-pi1-header">Login Welcome Header</h2>
+	
+	<div class="tx-loginboxmacmade-pi1-welcome">Login welcome message</div>
+	
+	<form target="_self" method="POST" enctype="multipart/form-data" name="a58c801df81070766cf85603daac0d2c3" id="a58c801df81070766cf85603daac0d2c3" action="gullys-gang/login/">
+	  
+	  <div style="display: none;">
+	    <input type="hidden" value="login" name="logintype">
+		<input type="hidden" value="28" name="pid">
+      </div>
+	  
+	  <div class="tx-loginboxmacmade-pi1-labelCell">
+	    Username:
+	  </div>
+	  
+	  <div class="tx-loginboxmacmade-pi1-fieldCell">
+	    <input type="text" class="input" value="" size="30" name="user">
+	  </div>
+	
+	  <div class="tx-loginboxmacmade-pi1-labelCell">
+	    Password:
+	  </div>
+	  
+	  <div class="tx-loginboxmacmade-pi1-fieldCell">
+	    <input type="password" class="password" value="" size="30" name="pass">
+	  </div>
+	  
+	  <div class="tx-loginboxmacmade-pi1-labelCell"></div>
+	  
+	  <div class="tx-loginboxmacmade-pi1-fieldCell">
+	    <input type="submit" class="submit" value="Login" name="submit">
+	  </div>
+	  
+	  <table width="100%" cellspacing="0" border="0" align="center" cellpading="0" class="tx-loginboxmacmade-pi1-loginTable">
+	  </table>
+	</form>
+
+</div>
+*/

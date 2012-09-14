@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_fanzone_photos'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ggfanzonephotos_photos">GG Fanzone Photos</label>
+			<label index="tx_ggfanzonephotos_photos.title">Title</label>
+			<label index="tx_ggfanzonephotos_photos.caption">Caption</label>
+			<label index="tx_ggfanzonephotos_photos.image">Image</label>
+			<label index="tt_content.list_type_pi1">GG Fanzone Photos</label>
+			<label index="tt_content.list_type_pi2">GG Fanzone Photo Panel</label>
+			<label index="tt_content.list_type_pi3">GG Fanzone Photo Upload</label>
+		</languageKey>
+	</data>
+</T3locallang>

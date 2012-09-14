@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteRule ^typo3$ - [L]
+RewriteRule ^typo3/.*$ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php
+
+
+#AuthType Basic
+#AuthUserFile /var/www/vhosts/bhafc/www/.htpasswd
+#AuthName "Development Server"
+#Satisfy All
+#Require valid-user
+
+
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value max_execution_time 400
+php_value max_input_time 200
+
+ 

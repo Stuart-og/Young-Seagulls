@@ -1,0 +1,51 @@
+Array
+(
+    [userscore] => 4382
+    [username] => undefined
+)
+Array
+(
+    [player_name] => test2326 test2326
+)
+Array
+(
+    [SCRIPT_URL] => /fileadmin/templates/swf/mySendScript.php
+    [SCRIPT_URI] => http://bhafc.3ev.info/fileadmin/templates/swf/mySendScript.php
+    [HTTP_HOST] => bhafc.3ev.info
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_KEEP_ALIVE] => 115
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://bhafc.3ev.info/gullys-gang/game-on/
+    [HTTP_COOKIE] => fe_typo_user=1b3884a23da7225463e31153b506c41d; be_typo_user=f7617f2321ee8aecc5233ef5a5a0c3a9; PHPSESSID=e98b39d2601a7c177c4847936fd1edbd
+    [CONTENT_TYPE] => application/x-www-form-urlencoded
+    [CONTENT_LENGTH] => 33
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.2.12 (Ubuntu) Server at bhafc.3ev.info Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.2.12 (Ubuntu)
+    [SERVER_NAME] => bhafc.3ev.info
+    [SERVER_ADDR] => 173.203.221.190
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 82.148.33.224
+    [DOCUMENT_ROOT] => /var/www/vhosts/bhafc/www
+    [SERVER_ADMIN] => [no address given]
+    [SCRIPT_FILENAME] => /var/www/vhosts/bhafc/www/fileadmin/templates/swf/mySendScript.php
+    [REMOTE_PORT] => 50268
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /fileadmin/templates/swf/mySendScript.php
+    [SCRIPT_NAME] => /fileadmin/templates/swf/mySendScript.php
+    [PHP_SELF] => /fileadmin/templates/swf/mySendScript.php
+    [REQUEST_TIME] => 1285146945
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)

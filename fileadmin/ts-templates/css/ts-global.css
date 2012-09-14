@@ -1,0 +1,208 @@
+/* Body Elements
+-------------------------------------------------------------------------------------------------------------------------*/
+body { background: #000 url(../img/global/bodybg.png) repeat-x bottom fixed; height: auto; }
+
+/* Structure 
+-------------------------------------------------------------------------------------------------------------------------*/
+.container { width: 960px; margin: 0 auto; }
+.content { background: #666 url(../img/global/contentbg.png) repeat-x top; padding: 10px 0 10px 0; float: left; }
+.content a { font-weight: bold; text-decoration: none; color: #fff; }
+.content a:hover { color: #01b5dd; }
+.footer { background: #000; padding: 5px 10px; margin: 0px 10px; clear: both; height: 1.2em; }
+#header { width: 960px; height: 171px; background: url(../img/global/headerbg.jpg); position: relative; }
+.carbonbox { background: #000 url(../img/global/carbonbg.png) repeat-x top; padding: 10px; margin: 0 0 20px 0; position: relative; }
+.carbonboxwhite { background: #FFF url(../img/global/carbonbgwhite.png) repeat-x top; padding: 10px; margin: 0 0 20px 0; position: relative; }
+.categories { background: #333; padding: 10px; border-top: 1px solid #444; }
+.safeonline { text-align: center; }
+.safeonline img { margin: 10px 0; }
+.news, .chat, .above { position: relative; z-index: 100; }
+/*.chat { height: 43em; }*/
+
+/* Header
+-------------------------------------------------------------------------------------------------------------------------*/
+#logo { background: url(../img/global/logo.png); width: 320px; height: 0px; padding: 105px 0 0 0; display: block; overflow: hidden; position: relative; top: 15px; left: 10px; float: left; }
+
+/*
+#jointoday { background: url(../img/global/jointoday.png); width: 135px; height: 0px; padding: 48px 0 0 0; display: block; overflow: hidden; position: relative; top: 35px; margin: 0 10px 0 0; float: right; }
+*/
+
+#jointoday { background: url(../img/global/jointoday.png); width: 135px; height: 0px; padding: 48px 0 0 0; display: block; overflow: hidden; position: relative; top: 60px; left: 400px; margin: 0 10px 0 0; }
+
+#header .navigation { float: right; position: relative; top: 20px; margin: 0 5px 0 0; }
+#header .navigation li { float: left; list-style: none; font-size: 1em; line-height: 100%; margin: 0 5px 0 0; }
+#header .navigation li a { background: url(../img/global/navbg.png); border-top: 1px solid #28b1db; padding: 7px 15px 3px 3px; color: #FFF; text-decoration: none; display: block; }
+#header .navigation li a:hover { color: #a5eaff; text-shadow: 0px 0px 7px #000; }
+#header .navigation li.on a { background: #000; color: #28b1db; }
+#header .topleft { left: 250px; }
+
+/* Secondary Navigation
+-------------------------------------------------------------------------------------------------------------------------*/
+.secondary { margin: 0 0 20px 0; padding: 0; }
+.secondary li { list-style: none; font-size: 1em; line-height: 100%; margin: 0 0 1px 0; font-weight: bold; }
+.secondary li a { background: #0185a4 url(../img/global/carbonbgblue.png) top no-repeat; border-top: 1px solid #28b1db; padding: 7px 8px 7px 8px; color: #FFF; text-decoration: none; display: block; }
+.secondary li a:hover { color: #a5eaff; text-shadow: 0px 0px 7px #a5eaff; }
+.secondary li.on a,
+.secondary li.ts-active a { background: #333 url(../img/global/carbonbg.png) -1px -1px no-repeat; color: #01b5dd; border-top-color: #777; }
+
+/* Web 2.Oooh!
+-------------------------------------------------------------------------------------------------------------------------*/
+#web20 { background: #000 url(../img/global/carbonbg.png) 0px -1px repeat-x; width: 940px; padding: 10px; margin: 0; float: left; clear: both; }
+#web20 ul { margin: 0; padding: 0; }
+#web20 li {  float: left; list-style: none;  }
+#web20 li a { color: #FFF; text-decoration: none; padding: 0 0 0 2.5em; margin: 0 1em 0 0; display: inline-block; font-size: 1em; line-height: 260%; }
+#web20 li a:hover { color: #01b5dd; }
+#web20 .twitter { background: url(../img/global/web20logos-twitter.png) no-repeat left center; }
+#web20 .rss { background: url(../img/global/web20logos-rss.png) no-repeat left center; }
+#web20 .flickr { background: url(../img/global/web20logos-flickr.png) no-repeat left center; }
+#web20 .youtube { background: url(../img/global/web20logos-youtube.png) no-repeat left center; }
+#web20 .facebook { background: url(../img/global/web20logos-facebook.png) no-repeat left center; }
+
+/* Footer
+-------------------------------------------------------------------------------------------------------------------------*/
+ul.footer { font-size: 1.1em; line-height: 120%; }
+ul.footer li { float: left; list-style: none; margin: 0 5px 0 0; padding: 0 5px 0 0; border-right: 1px solid #CCC; display: inline-block; }
+ul.footer li a { color: #EEE; text-decoration: none; }
+ul.footer li a:hover { color: #CCC; }
+
+/* Typography 
+----------------------------------------------------------------------------------------------------------------------------*/
+p, ul, ol { font-size: 1.2em; line-height: 1.4em; margin: 0 0 1.4em 0; color: #EEE; }
+small { font-size: 1.1em; font-style: italic; }
+ul, ol { padding: 0 0 0 3em; }
+ul li { list-style: disc; }
+ol li { list-style: decimal; }
+h1, h2, h3, h4 { line-height: 1em; margin: 0 0 0.5em 0; color: #01b5dd; }
+h1 { font-size: 3.6em; }
+h2 { font-size: 2.6em; }
+h3 { font-size: 2em; }
+h4 { font-size: 1.8em; }
+.chat p, .news p { margin: 0; }
+.intro { font-size: 1.8em; }
+.news h4 a { color: #01b5dd; text-decoration: none; }
+.categories p { margin: 0px; color: #AAA; }
+.categories a { color: #DDD; }
+
+/* Galleries
+-------------------------------------------------------------------------------------------------------------------------*/
+.gallery-big-img img { border: 1px solid #DDD; }
+.gallery-big-img { width: 440px; margin: 0 auto; clear: both; text-align: center; }
+.gallery-thumbs { width: 395px; margin: 0 auto; padding: 10px 0 10px 0; clear: both; text-align: center; }
+.gallery-thumbs img { border: 1px solid #DDD; margin: 0 4px; float: left; }
+.leftarrow { background: url(../img/global/gallery-arrow-left.png); width: 8px; height: 0px; padding: 12px 0 0 0; overflow: hidden; display: block; float: left; margin: 18px 0 0 0; }
+.rightarrow { background: url(../img/global/gallery-arrow-right.png); width: 8px; height: 0px; padding: 12px 0 0 0; overflow: hidden; display: block; float: left; margin: 18px 0 0 0; }
+.skills-big-img img { border: 1px solid #DDD; }
+.skills-info { float: left; width: 290px; }
+.skills-big-img { margin: 0 auto; float: right; }
+.skills-thumbs { width: 625px; margin: 0 auto; padding: 10px 0 10px 0; clear: both; text-align: center; }
+.skills-thumbs img { border: 1px solid #DDD; margin: 0 4px; float: left; }
+
+/* Scores
+-------------------------------------------------------------------------------------------------------------------------*/
+.score table { font-size: 1.2em; line-height: 100%; font-weight: bold; color: #FFF; }
+.score td { padding: 3px 5px; }
+.score table .odd { background: #4ab4e1; color: #003e7f; }
+.nextfixture p { text-align: center; margin: 0; font-size: 1.6em; line-height: 80% }
+.date { background: #4ab4e1; padding: 5px; }
+.score a {  }
+.score .odd  a:hover { color: #000; }
+
+/* Box Heights
+-------------------------------------------------------------------------------------------------------------------------*/
+.h1 { height: 15em }
+.h2 { height: 43em }
+.h25 { height: 44em }
+.h3 { height: 53em }
+.h4 { height: 62em }
+
+/* Border & Colours
+-------------------------------------------------------------------------------------------------------------------------*/
+.noborder { border: none!important; }
+.blue { color: #01b5dd; }
+.white { color: #FFF; }
+.clearer_border .clearer { border-top: 1px solid #333; margin: 0 0 10px 0; }
+.clearer_border .button { margin: 0 0 10px 5px; }
+.nomargin { margin: 0; }
+.smallmargin { margin: 0 0 0.2em 0; }
+
+/* Image Placement
+-------------------------------------------------------------------------------------------------------------------------*/
+img.left { float: left; margin: 0 10px 10px 0; }
+img.right { float: right; margin: 0 0 10px 10px; }
+img.middle { margin: 0 0 10px 0; }
+img.bottomleft { position: absolute; left: 0px; bottom: 0px; z-index: 10; }
+img.bottomright { position: absolute; right: 0px; bottom: 0px; z-index: 10; }
+img.topleft { position: absolute; left: 0px; top: 0px; z-index: 10; }
+img.topright { position: absolute; right: 0px; top: 0px; z-index: 10; }
+img.bottomplusleft { position: absolute; left: 0px; bottom: -5px; z-index: 10; }
+img.bottomplusright { position: absolute; right: 0px; bottom: -5px; z-index: 10; }
+
+/* Team 
+-------------------------------------------------------------------------------------------------------------------------*/
+.team { padding: 0; margin: 0 auto; margin-left: 25px; text-align: center; position: relative; }
+.team img { border: 1px solid #ccc; margin: 0 0 5px 0; }
+.team a { text-decoration: none; color: #01b5dd; font-weight: bold; }
+.team span { float: left; display: block; text-align: center; margin: 5px 10px; width: 110px; height: 150px; font-size: 1.2em; }
+.team .leftarrow { background: url(../img/global/gallery-arrow-left.png); width: 8px; height: 0px; padding: 12px 0 0 0; overflow: hidden; display: block; position: absolute; top: 210px; left: -10px; }
+.team .rightarrow { background: url(../img/global/gallery-arrow-right.png); width: 8px; height: 0px; padding: 12px 0 0 0; overflow: hidden; display: block; position: absolute; top: 210px; right: 15px; }
+
+/* Buttons
+-------------------------------------------------------------------------------------------------------------------------*/
+a.button { background: #333; float: right; border-top: 1px solid #01b5dd; color: #FFF; text-decoration: none; font-size: 1.1em; padding: 5px 7px; margin: 0 0 0 5px; font-weight: bold; }
+a:hover.button { color: #01b5dd; }
+.bottom { position: absolute; bottom: 10px; right: 10px; z-index: 300; }
+.blue_buttons a.button { background: #007697; color: #FFF; }
+.blue_buttons a.button:hover { color: #01b5dd; }
+
+/* News
+-------------------------------------------------------------------------------------------------------------------------*/
+div.ts-news-item-wrapper { padding: 0px 0px 15px 0px; }
+div.ts-news-item-wrapper p a { color: #01b5dd; text-decoration: none; }
+div.ts-news-item-wrapper p a:hover { text-decoration: underline; }
+
+div.ts-news-single-item {  }
+div.ts-news-single-item img { border: 1px solid #fff; }
+div.ts-news-single-item div.news-single-backlink { padding: 0px 0px 6px 0px !important; margin: 10px 0px 0px 0px; text-align: right;}
+div.ts-news-single-item div.news-single-backlink a { background:none repeat scroll 0 0 #333333; border-top: 1px solid #01B5DD; color: #FFFFFF; font-size: 1.1em; font-weight: bold; margin: 0 0 0 5px; padding: 5px 7px; text-decoration: none; }
+div.ts-news-single-item div.news-single-backlink a:hover { text-decoration: underline; }
+
+div#ts-stadium-news a { color: #01b5dd; text-decoration: none; }
+div#ts-stadium-news a:hover { color: #01b5dd; text-decoration: underline; }
+
+div.ts-news-image { float: left; width: 115px; overflow: hidden; }
+div.ts-news-image img { width: 100px; height: auto; border: 1px solid white; }
+div.ts-news-image img:hover { width: 100px; height: auto; border: 1px solid #01b5dd; }
+div.ts-news-content { position: relative; float: left; width: 550px; padding: 0px 0px 25px 0px; }
+div.ts-news-content h4 { margin: 0px; padding: 0px; }
+div.ts-news-content span.news-list-morelink a { position: absolute; bottom: -10px; right: 0px; z-index: 10; background: none repeat scroll 0 0 #333333; border-top: 1px solid #01B5DD; color: #FFFFFF; font-size: 0.9em; font-weight: bold; margin: 0 0 0 5px; padding: 4px 7px; text-decoration:none; }
+div.ts-news-content span.news-list-morelink a:hover { color: #01B5DD; }
+
+
+
+/* Login Logout */
+/*div#ts-login-logout-wrapper {  }*/
+div#ts-login-logout-wrapper { position: absolute; top: 75px; left: 639px; z-index: 10; }
+div#ts-login-logout-wrapper ul { padding: 0px; }
+div#ts-login-logout-wrapper ul li { float: left; list-style: none; }
+div#ts-login-logout-wrapper ul li a {  }
+div#ts-login-logout-wrapper ul li#ts-login a { background: url(../img/login.png) 43px 0px no-repeat; width: 135px; height: 0px; padding: 48px 0 0 0; margin: 0px 10px 0px 0px; display: block; overflow: hidden; position: relative; }
+div#ts-login-logout-wrapper ul li#ts-join-today a { background: url(../img/global/jointoday.png); width: 135px; height: 0px; padding: 48px 0 0 0; display: block; overflow: hidden; position: relative; }
+div#ts-login-logout-wrapper input { margin: 0px 0px 0px 120px; }
+
+/* Ad panels */
+div.ts-ad-panel { position: relative; width: 220px; height: 170px; margin-bottom: 20px; }
+div.ts-ad-panel a { position: absolute; z-index: 10; top: 0px; left: 0px; width: 220px; height: 170px; display: block; }
+div.ts-ad-panel h2 { padding: 10px 0px 10px 10px; font-size: 2em !important; }
+div#ts-ad-tickets { background: url(../img/ts-tickets.png); }
+div#ts-ad-official { background: url(../img/ts-official-site.png); }
+div#ts-ad-shop { background: url(../img/ts-shop.png); }
+
+div#ts-home-new-blog { display: none; }
+
+
+/* TYPO3 Form Styling */
+/*C9EFF8*/
+table.csc-mailform {  }
+table.csc-mailform tr {  }
+table.csc-mailform tr td { padding: 10px 10px 10px 10px; border-bottom: 1px solid #28B1DB; }
+table.csc-mailform tr td.csc-form-fieldcell { font-size: 1.2em; color: #fff; }
+span.csc-form-radio {  }

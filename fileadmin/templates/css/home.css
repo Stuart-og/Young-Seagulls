@@ -1,0 +1,126 @@
+#re-register{
+width:100%;
+height:38px;
+background-image:url('../re-register.gif');
+position:fixed;
+top:0px;
+z-index:9000;
+}
+
+/* About Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-about-panel { width: 460px; height: 190px; background: url(../img/home/about-panel-top-bg.png) 0px 0px no-repeat; }
+#gg-about-panel-bottom { width: 460px; height: 37px; background: url(../img/home/about-panel-bottom-bg.png) 0px 0px no-repeat; overflow: hidden; float: left; }
+#gg-about-panel-bottom .bottom-panel { width: 210px; margin-left: 250px; }
+#gg-about-panel-top { background: url(../img/home/about-title.png); width: 460px; height: 119px; display: block; position: relative; top: -24px; color: #FFF; }
+#gg-about-panel-top h2 { position: relative; top: 38px; left: 112px; width: 200px;  }
+#gg-about-gully { /*background: url(../img/home/about-gully.png);*/ width: 184px; height: 213px; display: block; position: absolute; margin-top: -110px; left: -10px; z-index: 10; float: left; }
+#gg-about-panel .content { position: relative; margin-top: -50px; left: 121px; width: 328px; z-index: 30; float: left; }
+
+/* Team Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-team-panel { width: 225px; height: 196px; background: url(../img/home/team-panel-bg.jpg) 0px 0px no-repeat; margin: 30px 0 0 0; }
+#gg-team-panel-top { background: url(../img/home/team-title.png); width: 225px; height: 109px; display: block; position: relative; top: -17px; left: -5px; color: #FFF; }
+#gg-team-panel-top h2 { position: relative; top: 32px; left: 170px; width: 75px;  }
+#gg-team-panel .bottom-panel-bg { margin: -46px 0px 0px 6px; position: relative; } 
+.cards { background: url(../img/home/team-cards-bg.png) no-repeat; width: 289px; height: 155px; display: block; margin-top: -60px; left: 80px; position: relative; z-index: 10; }
+
+
+/* Events Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-events-panel { width: 225px; height: 196px; background: url(../img/home/events-panel-bg.jpg) 0px 0px no-repeat; margin: 30px 0 0 0; }
+#gg-events-panel-top { background: url(../img/home/events-title.png) no-repeat; width: 225px; height: 109px; display: block; position: relative; top: 0px; left: -5px; color: #FFF; }
+#gg-events-panel-top h2 { position: relative; top: 32px; left: 170px; width: 75px;  }
+#gg-events-panel .bottom-panel-bg { margin: 49px 0px 0px 6px; position: relative; } 
+.cards { background: url(../img/home/team-cards-bg.png) no-repeat; width: 289px; height: 155px; display: block; margin-top: -60px; left: 80px; position: relative; z-index: 10; }
+
+
+/* Scores Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-scores-panel { width: 225px; height: 215px; background: url(../img/home/scores-panel-bg.png) 0px 0px no-repeat; margin: 7px 0 0 0; }
+#gg-scores-panel-top { background: url(../img/home/scores-title.png) no-repeat; width: 225px; height: 100px; display: block; position: relative; top: -13px; left: -5px; color: #FFF; }
+#gg-scores-panel-top h2 { position: relative; top: 27px; left: 105px; width: 90px;  }
+#gg-scores-panel .bottom-panel-bg { left: 6px; position: relative; }
+#gg-scores-panel .content { margin-top: -45px; position: relative; padding: 10px; height: 103px; }
+#gg-scores-panel table { font-size: 1.2em; line-height: 100%; font-weight: bold; color: #FFF; }
+#gg-scores-panel td { padding: 3px 5px; }
+#gg-scores-panel table .odd { background: #4ab4e1; color: #003e7f; }
+
+#gg-scores-panel tr.odd td a { text-decoration: none; color: #003e7f; }
+#gg-scores-panel tr.odd td a:hover { text-decoration: underline; }
+#gg-scores-panel tr td a { text-decoration: none; color: #fff; }
+#gg-scores-panel tr td a:hover { text-decoration: underline; }
+
+
+/* Fan Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-fan-panel { width: 225px; height: 215px; background: url(../img/home/fan-panel-bg.jpg) 0px 0px no-repeat; margin: 7px 0 0 1px; }
+#gg-fan-panel-top { background: url(../img/home/fan-title.png) no-repeat; width: 225px; height: 100px; display: block; position: relative; top: -5px; left: -5px; color: #FFF; }
+#gg-fan-panel-top a { text-decoration: none; color: #a2e5ff; }
+#gg-fan-panel-top a:hover { text-decoration: underline; }
+#gg-fan-panel-top h2 { position: relative; top: 19px; left: 95px; width: 110px;  }
+#gg-fan-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: 78px; }
+
+/* News Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-news-panel { clear:both; width: 460px; height: 165px; background: url(../img/home/news-panel-bg-first.png) 0px 0px no-repeat; margin: 7px 0 0 0; }
+#gg-news-panel-top { background: url(../img/home/news-title.png) no-repeat; width: 460px; height: 100px; display: block; position: relative; top: -9px; left: -5px; color: #FFF; }
+#gg-news-panel-top h2 { position: relative; top: 24px; left: 113px; width: 150px; }
+#gg-news-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: -1px; float: left; clear: both; }
+#gg-news-panel .content { width: 430px; height: 73px; position: relative; margin-top: -45px; left: 14px; float: left; }
+#gg-news-panel .content h3 { margin-top: 5px; }
+
+/* News Panel 2
+----------------------------------------------------------------------------------------------------------------------------*/
+.gg-news-panel { clear:both; width: 460px; height: 115px; background: url(../img/home/news-panel-bg-second.png) 0px 0px no-repeat; margin: 7px 0 0 0; }
+.gg-news-panel-top h2 { position: relative; top: 24px; left: 113px; width: 150px; }
+.gg-news-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: -1px; float: left; clear: both; }
+.gg-news-panel .content { width: 430px; height: 78px; position: relative; margin-top: -42px; left: 14px; float: left; }
+.gg-news-panel .content h3 { margin-top: 5px; }
+.block { display: block; height: 45px; left: -5px; position: relative; top: -9px; width: 460px; }
+.gg-news-panel .content .right{ margin-top:5px; }
+
+/* Cheerleaders Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-cheerleaders-panel { width: 225px; height: 188px; background: url(../img/home/cheerleaders-panel-bg.jpg) 0px 0px no-repeat; margin: 9px 0 0 0; }
+#gg-cheerleaders-panel-top { background: url(../img/home/cheerleaders-title.png) no-repeat; width: 225px; height: 99px; display: block; position: relative; top: 0px; left: -5px; color: #FFF; }
+#gg-cheerleaders-panel-top h2 { position: relative; top: 14px; left: 205px; width: 75px; }
+#gg-cheerleaders-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: -28px; float: left; clear: both; }
+.cheerleaders-photo { background: url(../img/home/cheerleaders-photo.png) no-repeat; width: 169px; height: 120px; display: block; margin-top: -40px; left: 105px; position: relative; z-index: 10; }
+
+/* Travel Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-travel-panel { width: 225px; height: 188px; background: url(../img/home/travel-panel-bg.jpg) 0px 0px no-repeat; margin: 9px 0 0 0; }
+#gg-travel-panel-top { background: url(../img/home/travel-title.png) no-repeat; width: 225px; height: 179px; display: block; position: relative; top: 0px; left: -5px; color: #FFF; }
+#gg-travel-panel-top h2 { position: relative; top: 14px; left: 205px; width: 75px; }
+#gg-travel-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: -28px; float: left; clear: both; }
+.cheerleaders-photo { background: url(../img/home/cheerleaders-photo.png) no-repeat; width: 169px; height: 120px; display: block; margin-top: -40px; left: 105px; position: relative; z-index: 10; }
+
+
+/* Stadium Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-stadium-panel { width: 460px; height: 188px; background: url(../img/home/stadium-panel-bg.jpg) 0px 0px no-repeat; margin: 9px 0 0 0; }
+#gg-stadium-panel-top { background: url(../img/home/stadium-title.png) no-repeat; width: 456px; height: 99px; display: block; position: relative; top: -4px; left: -5px; color: #FFF; }
+#gg-stadium-panel-top h2 { position: relative; top: 18px; left: 150px; width: 80px; }
+#gg-stadium-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: -42px; float: left; clear: both; }
+#smallsecondary { position: relative; left: 361px; margin-top: -37px; }
+
+/* Seagull Positioning 
+----------------------------------------------------------------------------------------------------------------------------*/
+#home .seagull01 { margin-left: 482px; margin-top: 155px; }
+#home .seagull02 { margin-left: 665px; margin-top: 394px; }
+#home .seagull03 { margin-left: 430px; margin-top: 450px; }
+#home .seagull04 { margin-left: 390px; margin-top: 445px; }
+
+#flash {
+margin-left:-350px;
+position:absolute;
+top:30px;
+z-index:10;
+}
+
+#contact-btn{
+	position:fixed;
+	right:0px;
+	border:0px;
+	}

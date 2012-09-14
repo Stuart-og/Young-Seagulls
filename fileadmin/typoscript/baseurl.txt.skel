@@ -1,0 +1,4 @@
+config.baseURL=http://{$server_domain}/{$server_base}
+config.metaCharset = utf-8
+config.renderCharset = utf-8
+

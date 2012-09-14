@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'se_registration'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="fe_users.tx_seregistration_surname">Surname</label>
+			<label index="fe_users.tx_seregistration_gender">Gender</label>
+			<label index="fe_users.tx_seregistration_dob">Date of Birth</label>
+			<label index="fe_users.tx_seregistration_school">School</label>
+			<label index="fe_users.tx_seregistration_parent_name">Parent Name</label>
+			<label index="fe_users.tx_seregistration_play_for">Play For</label>
+			<label index="fe_users.tx_seregistration_season_ticket">Season Ticket Holder?</label>
+			<label index="fe_users.tx_seregistration_fav_player">Favourite player</label>
+			<label index="fe_users.tx_seregistration_additional_material">Receive additional material?</label>
+			<label index="tt_content.list_type_pi1">Seagulls Registration</label>
+			<label index="tt_content.list_type_pi2">Seagulls Profile</label>
+		</languageKey>
+	</data>
+</T3locallang>

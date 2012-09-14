@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:70:"typo3conf/ext/ts_wall/locallang_db.xml|10-05-2010 19:43:09|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:5:{s:24:"tt_content.list_type_pi1";s:7:"TS Wall";s:15:"tx_tswall_posts";s:13:"TS Wall Posts";s:20:"tx_tswall_posts.post";s:4:"Post";s:20:"tx_tswall_posts.user";s:4:"User";s:24:"tx_tswall_posts.reported";s:8:"Reported";}}}

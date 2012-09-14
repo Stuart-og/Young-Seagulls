@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* TS Stadium
+----------------------------------------------------------------------------------------------------*/
+
+div#ts-stadium-news {  }
+div#ts-stadium-news h2 { margin: 0px 0px 10px 0px !important; padding: 0px !important; }
+div#ts-stadium-news h4 { float: left; padding: 0px !important; margin: 0px 10px 6px 0px !important; }
+div#ts-stadium-news small { float: left; padding: 3px 0px 0px 0px !important; }
+div#ts-stadium-news div.ts-news-image { float: left; width: 110px; }
+div#ts-stadium-news div.ts-news-content { float: right; width: 325px; }
+div#ts-stadium-news div.ts-news-content p {  }
+
+div#ts-stadium-news span.news-list-morelink a { position: absolute; bottom: 14px; left: 270px; z-index: 10; background: none repeat scroll 0 0 #333333; border-top: 1px solid #01B5DD; color: #FFFFFF; font-size: 1em; font-weight: bold; margin: 0 0 0 5px; padding: 3px 7px; text-decoration:none; }
+div.ts-news-content span.news-list-morelink a:hover { color: #01B5DD !important; }
+
+
+img.webcam { border: 1px solid #fff; margin: 0px 0px 43px 0px; }
+
+a#ts-all-stad-news { position: absolute; top: 10px; right: 10px; z-index: 10;  background: none repeat scroll 0 0 #333333; border-top: 1px solid #01B5DD; color: #FFFFFF !important; font-size: 1em; font-weight: bold; margin: 0 0 0 5px; padding: 5px 7px; text-decoration: none; font-size: 1.2em; }
+a#ts-all-stad-news:hover { text-decoration: none !important; color: #01b5dd !important; }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_skills'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ggskills_videos">GG Skills Videos</label>
+			<label index="tx_ggskills_videos.title">Title</label>
+			<label index="tx_ggskills_videos.description">Description</label>
+			<label index="tx_ggskills_videos.file">File</label>
+			<label index="tx_ggskills_videos.thumbnail">Thumbnail</label>
+			<label index="tx_ggskills_videos.rating">Rating</label>
+			<label index="tx_ggskills_videos.skill_level">Skill Level</label>
+			<label index="tt_content.list_type_pi1">GG Skills</label>
+		</languageKey>
+	</data>
+</T3locallang>

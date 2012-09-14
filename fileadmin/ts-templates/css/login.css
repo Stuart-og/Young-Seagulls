@@ -1,0 +1,17 @@
+/* Login box (typo3 extension)
+----------------------------------------------------------------------------------------------------------------------------*/
+
+p { padding: 0px 0px 10px 0px; }
+
+div.tx-loginboxmacmade-pi1 { position: relative; margin: 20px 0px 0px 0px; }
+div.tx-loginboxmacmade-pi1 h2 { display: none; }
+
+div.tx-loginboxmacmade-pi1-welcome { display: none; }
+
+div.gg-login-form-row { padding: 10px 0px 0px 0px; }
+div.gg-login-form-row div.tx-loginboxmacmade-pi1-labelCell { width: 150px; font-size: 1.4em; color: #fff; }
+div.gg-login-form-row div.tx-loginboxmacmade-pi1-fieldCell {  }
+div.gg-login-form-row div.tx-loginboxmacmade-pi1-fieldCell input { /*width: 202px; height: 17px; padding: 3px 0px 0px 3px; background: url(../img/global/text-input.gif) 0px 0px 
+repeat; border: 0px;*/ }
+
+div.gg-login-form-row div.tx-loginboxmacmade-pi1-fieldCell input.submit { border: 0px; background:none repeat scroll 0 0 #333333; border-top:1px solid #01B5DD; color:#FFFFFF; font-size:1.1em; font-weight:bold; margin: 4px 0px 0px 321px; padding:5px 7px; text-decoration: none; }

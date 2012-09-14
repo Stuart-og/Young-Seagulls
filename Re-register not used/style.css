@@ -1,0 +1,245 @@
+body{
+	background-image:url("images/body-bg.gif");
+	font-family:Arial, Helvetica, sans-serif;
+	}
+	
+#form{
+	position:absolute;
+	top:0px;
+	left:80px;
+	z-index:-5;
+	background-color:#00a0ea;
+	font-family:Arial, Helvetica, sans-serif;
+	color:white;
+	font-size:12px;
+	height:640px;
+	width:340px;
+	margin:20px auto;
+	border:3px solid white;
+	}
+	
+#blurb{
+	position:absolute;
+	top:130px;
+	left:60px;
+	font-weight:bold;
+	font-size:15px;
+	}
+	
+#wrapper{
+	position:relative;
+	width:450px;
+	margin:auto;
+	}
+	
+#header{
+	margin-left:20px;
+	}
+	
+#gully{
+	position:absolute;
+	left:-30px;
+	top:45px;
+	}
+	
+#re-register-form{
+	width:260px;
+	margin:80px auto;
+	}
+
+.re-register-label{
+	display:block;
+	float:left;
+	width:100px;
+	margin-top:3px;
+	}
+	
+input{
+	background-color: #00a0ea;
+	border:1px solid white;
+	color:white;
+	font-weight:bold;
+	}
+	
+input:focus{
+
+	background-color:#00bff3;;
+	}
+	
+.item-wrapper{
+	position:relative;
+	clear:both;
+	height:25px;
+	width:550px;
+	}
+	
+.item-fan-no{
+	height:55px;
+	}
+	
+#no-fan-no{
+	padding-top:2px;
+	font-size:10px;
+	}
+	
+#submit{
+	color:white;
+	border:none;
+	margin-top:10px;
+	margin-left:100px;
+	cursor:pointer;
+	}
+
+/* err msg */
+
+.err-msg{
+	position:absolute;
+	left:250px;
+	top:2px;
+	color:white;
+	font-style:italic;
+	background-color:#00a0ea;
+	padding:4px;
+	-moz-border-radius: 15px;
+	border-radius: 5px;
+	}	
+	
+/* Applicants page */
+
+#applicants-info{
+	width:650px;
+	margin:auto;
+	font-size:14px;
+	}	
+	
+.applicant-info{
+	position:relative;
+	height:170px;
+	width:650px;
+	border:2px solid white;
+	margin:30px 0px;
+	color:white;
+	background-color:#00a0ea;
+	}
+	
+.applicant-name{
+	position:absolute;
+	top:15px;
+	left:20px;
+	}
+
+.applicant-email{
+	position:absolute;
+	top:35px;
+	left:20px;
+	width:400px;
+	}
+	
+.applicant-favplayer{
+	position:absolute;
+	top:75px;
+	left:20px;
+	width:400px;
+	}
+	
+.applicant-address{
+	position:absolute;
+	top:35px;
+	left:400px;
+	}
+
+.added{
+	position:absolute;
+	bottom:0px;
+	right:5px;
+	}
+	
+.added-label{
+	font-style:italic;
+	font-weight:bold;
+	}
+	
+#save{
+	position:fixed;
+	bottom:5px;
+	right:5px;
+	background-color:red;
+	}
+	
+	
+/* Login page */
+
+#login-wrap {
+	width:230px;
+	margin:auto;
+	background-color: #00a0ea;
+	padding:50px;
+	padding-bottom:20px;
+	border:2px solid white;
+	}
+
+#login-form{
+	width:220px;
+	margin:auto;
+	}
+	
+#login-form label{
+	display:block;
+	width:50px;
+	float:left;
+	color:white;
+	}
+	
+.login-field{
+	margin:10px;
+	}
+	
+#Login{
+	width:80px;
+	margin:auto;
+	}
+	
+#login-btn{
+	width:80px;
+	margin:20px auto;
+	}
+	
+#please-login-wrap {
+	width:300px;
+	margin:auto;
+	background-color: #00a0ea;
+	padding:20px;
+	border:2px solid white;
+	}
+	
+#please-login{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:white;
+	}
+	
+#thankyou{
+	width:380px;
+	margin:auto;
+	background-color: #00a0ea;
+	padding:20px;
+	border:2px solid white;
+	color:white;
+	}
+	
+#eightdigs{
+	position:absolute;
+	left:250px;
+	top:3px;
+	}
+	
+#field-dob{
+	position:absolute;
+	top:0px;
+	right:303px;
+	}
+	
+#dob-label{
+	font-size:10px;
+	line-height:9px;
+	}

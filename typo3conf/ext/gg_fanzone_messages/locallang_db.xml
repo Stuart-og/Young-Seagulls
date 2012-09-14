@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_fanzone_messages'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ggfanzonemessages_messages">Messages</label>
+			<label index="tx_ggfanzonemessages_messages.user_uid">User UID</label>
+			<label index="tx_ggfanzonemessages_messages.message">Message</label>
+			<label index="tx_ggfanzonemessages_messages.response_to">Response to UID</label>
+			<label index="tt_content.list_type_pi1">GG Fan Zone Messages Small</label>
+			<label index="tt_content.list_type_pi2">GG Fan Zone Messages Full</label>
+		</languageKey>
+	</data>
+</T3locallang>

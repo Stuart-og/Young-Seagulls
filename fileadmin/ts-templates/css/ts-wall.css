@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* TS Wall
+----------------------------------------------------------------------------------------------------*/
+#ts-wall-comment-form-wrapper {  }
+#ts-wall-comment-form-wrapper p { padding: 0px 0px 20px 0px; }
+#ts-wall-comment-form-wrapper .ts-wall-form-input {  }
+#ts-wall-comment-form-wrapper .ts-wall-form-input textarea { width: 400px; height: 100px; }
+#ts-wall-comment-form-wrapper .ts-wall-form-input input.ts-submit-button { border: 0px; border-top:1px solid #01B5DD; color:#FFFFFF; margin: 10px 0px 10px 0px; padding: 5px 7px; font-size:1.1em; font-weight:bold; background: #007697; }
+
+
+
+div.ts-wall-post { padding: 0px 0px 10px 0px; margin: 0px 0px 10px 0px; /*border-bottom: 1px solid #555;*/ }
+div.ts-wall-post h4 { margin: 0px 0px 0px 0px !important; }
+div.ts-wall-post div.clearer { border: 0px !important; padding: 0px !important; margin: 0px !important; }
+div.ts-wall-post a.button { margin: 0px 0px 0px 5px; !important; }
+
+div.ts-wall-post div.ts-post-by { width: 280px; padding: 4px 0px 0px 0px; }
+div.ts-wall-post div.ts-post-links { width: 140px; }
+
+/* Wall Comments */
+div.ts-wall-post div.ts-wall-comments { padding: 5px 0px 0px 0px; }
+div.ts-wall-post div.ts-wall-comments h4 { padding: 0px 0px 5px 0px; }
+
+div.ts-wall-comment { position: relative; background: #222; padding: 5px 10px; margin: 0px 0px 4px 0px; }
+div.ts-wall-comment div.ts-wall-comment-from { color: #fff; font-weight: bold; padding: 0px 0px 0px 17px; margin: 0px 0px 5px 0px; font-size: 1.2em; background: url('../img/icon-commenttitle.png') left no-repeat; }
+div.ts-wall-comment p.tools {  }
+div.ts-wall-comment p.tools a { position: absolute; bottom: 5px; right: 5px; z-index: 10; background: none repeat scroll 0 0 #333333; border-top: 1px solid #01B5DD; color: #FFFFFF; font-size: 0.9em; font-weight: bold; margin: 0 0 0 5px; padding: 5px 7px; text-decoration: none; float: right; }
+div.ts-wall-comment p.tools a:hover { color: #01b5dd; }
+
+/* Comment form */
+div.gg-comment-form { display: none; margin: 5px 0px 0px 0px; position: relative; }
+div.gg-comment-form form {  }
+div.gg-comment-form form textarea { width: 380px !important; height: 70px; border: 1px solid #01B5DD; }
+div.gg-comment-form input.gg-message-form-send { position: absolute; bottom: 0px; right: 0px; z-index: 10; background: none repeat #333333; color: #FFFFFF; font-size: 1.1em; font-weight: bold; margin: -10px 0px 0px 0px; padding: 5px 11px; text-decoration: none; border: 0px; border-top: 1px solid #01B5DD; }
+
+
+/* Main Wall post form */
+div.gg-message-form { margin: 5px 0px 0px 0px; position: relative; }
+div.gg-message-form h3 { padding: 0px !important; margin: 0px !important; }
+div.gg-message-form p { padding: 0px 0px 5px 0px ; }
+div.gg-message-form form {  }
+div.gg-message-form form textarea { width: 610px !important; height: 70px; border: 1px solid #01B5DD; }
+div.gg-message-form input.gg-message-form-send { position: absolute; bottom: 0px; right: 0px; z-index: 10; background: none repeat #333333; color: #FFFFFF; font-size: 1.1em; font-weight: bold; margin: -10px 0px 0px 0px; padding: 5px 11px; text-decoration: none; border: 0px; border-top: 1px solid #01B5DD; }
+
+
+.clearer_border .clearer { border-top: 0px; }

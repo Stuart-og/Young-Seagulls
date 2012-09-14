@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'gg_the_score'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">GG The Score Report</label>
+			<label index="tt_content.list_type_pi2">GG The Score Prev Results</label>
+			<label index="tt_content.list_type_pi3">GG The Score Next Game</label>
+			<label index="tt_content.list_type_pi4">GG The Score Home Panel</label>
+			<label index="tt_content.list_type_pi5">GG The Score Full Report</label>
+			<label index="tx_ggthescore_match">GG The Score Match</label>
+			<label index="tx_ggthescore_match.opposition">Opposition</label>
+			<label index="tx_ggthescore_match.homeaway.I.0">Home</label>
+			<label index="tx_ggthescore_match.homeaway.I.1">Away</label>
+			<label index="tx_ggthescore_match.homeaway">Home/Away</label>
+			<label index="tx_ggthescore_match.datetime">Date and Time</label>
+			<label index="tx_ggthescore_match.venue">Venue</label>
+			<label index="tx_ggthescore_match.brightongoals">Brighton Goals</label>
+			<label index="tx_ggthescore_match.oppositiongoals">Opposition Goals</label>
+			<label index="tx_ggthescore_match.competition">Competition</label>
+			<label index="tx_ggthescore_match.report">Report</label>
+			<label index="tx_ggthescore_match.media">Media</label>
+			<label index="tx_ggthescore_match.preview">Preview?</label>
+			<label index="tx_ggthescore_match.link">Link to official site report</label>
+		</languageKey>
+	</data>
+</T3locallang>

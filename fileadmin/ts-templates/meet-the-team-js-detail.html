@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Brighton &amp; Hove Albion | Team Stripes</title>
+<script type="text/javascript" src="scr/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="scr/cufon-yui.js"></script>
+<script type="text/javascript" src="scr/Klavika_Regular_italic_400.font.js"></script>
+<script type="text/javascript">
+Cufon.replace('h1')('h2')('h3')('h4')('.intro')('.nextfixture');
+</script>
+
+		<script type="text/javascript" src="scr/jquery.history.js"></script>
+		<script type="text/javascript" src="scr/jquery.galleriffic.js"></script>
+		<script type="text/javascript" src="scr/jquery.opacityrollover.js"></script>
+		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<script type="text/javascript">
+			document.write('<style>.noscript { display: none; }</style>');
+		</script>
+
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/ts-global.css" type="text/css" media="screen" />
+<!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen" /><![endif]-->
+
+
+<link rel="stylesheet" href="css/ts-gallery.css" type="text/css" media="screen" />
+<!--[if lte IE 6]><link rel="stylesheet" href="css/ie6-gallery.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="css/ie7-gallery.css" type="text/css" media="screen"><![endif]-->
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				// We only want these styles applied when javascript is enabled
+				//$('div.content').css('display', 'block');
+
+				// Initially set opacity on thumbs and add
+				// additional styling for hover effect on thumbs
+				var onMouseOutOpacity = 0.67;
+				$('#thumbs ul.thumbs li, div.navigation a.pageLink').opacityrollover({
+					mouseOutOpacity:   onMouseOutOpacity,
+					mouseOverOpacity:  1.0,
+					fadeSpeed:         'fast',
+					exemptionSelector: '.selected'
+				});
+				
+				// Initialize Advanced Galleriffic Gallery
+				var gallery = $('#thumbs').galleriffic({
+					delay:                     2500,
+					numThumbs:                 5,
+					preloadAhead:              10,
+					enableTopPager:            false,
+					enableBottomPager:         false,
+					imageContainerSel:         '#slideshow',
+					controlsContainerSel:      '#controls',
+					captionContainerSel:       '#captionXX',
+					loadingContainerSel:       '#loading',
+					renderSSControls:          false,
+					renderNavControls:         true,
+					playLinkText:              'Play Slideshow',
+					pauseLinkText:             'Pause Slideshow',
+					prevLinkText:              '&lsaquo; Previous Photo',
+					nextLinkText:              'Next Photo &rsaquo;',
+					nextPageLinkText:          'Next &rsaquo;',
+					prevPageLinkText:          '&lsaquo; Prev',
+					enableHistory:             true,
+					autoStart:                 false,
+					syncTransitions:           true,
+					defaultTransitionDuration: 900,
+					onSlideChange:             function(prevIndex, nextIndex) {
+						// 'this' refers to the gallery, which is an extension of $('#thumbs')
+						this.find('ul.thumbs').children()
+							.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+							.eq(nextIndex).fadeTo('fast', 1.0);
+					
+					//	// Update the photo index display
+					//	this.$captionContainer.find('div.photo-index')
+					//		.html('Photo '+ (nextIndex+1) +' of '+ this.data.length);
+					},
+					onPageTransitionOut:       function(callback) {
+						this.fadeTo('fast', 0.0, callback);
+					},
+					onPageTransitionIn:        function() {
+						var prevPageLink = this.find('a.prev').css('visibility', 'hidden');
+						var nextPageLink = this.find('a.next').css('visibility', 'hidden');
+						
+						// Show appropriate next / prev page links
+						if (this.displayedPage > 0)
+							prevPageLink.css('visibility', 'visible');
+
+						var lastPage = this.getNumPages() - 1;
+						if (this.displayedPage < lastPage)
+							nextPageLink.css('visibility', 'visible');
+
+						this.fadeTo('fast', 1.0);
+					}
+				});
+
+				/**************** Event handlers for custom next / prev page links **********************/
+
+				gallery.find('a.prev').click(function(e) {
+					gallery.previousPage();
+					e.preventDefault();
+				});
+
+				gallery.find('a.next').click(function(e) {
+					gallery.nextPage();
+					e.preventDefault();
+				});
+
+				/****************************************************************************************/
+
+				/**** Functions to support integration of galleriffic with the jquery.history plugin ****/
+
+				// PageLoad function
+				// This function is called when:
+				// 1. after calling $.historyInit();
+				// 2. after calling $.historyLoad();
+				// 3. after pushing "Go Back" button of a browser
+				function pageload(hash) {
+					// alert("pageload: " + hash);
+					// hash doesn't contain the first # character.
+					if(hash) {
+						$.galleriffic.gotoImage(hash);
+					} else {
+						gallery.gotoIndex(0);
+					}
+				}
+
+				// Initialize history plugin.
+				// The callback is called at once by present location.hash. 
+				$.historyInit(pageload, "advanced.html");
+
+				// set onlick event for buttons using the jQuery 1.3 live method
+				$("a[rel='history']").live('click', function(e) {
+					if (e.button != 0) return true;
+
+					var hash = this.href;
+					hash = hash.replace(/^.*#/, '');
+
+					// moves to a new page. 
+					// pageload is called at once. 
+					// hash don't contain "#", "?"
+					$.historyLoad(hash);
+
+					return false;
+				});
+
+				/****************************************************************************************/
+			});
+		</script>
+
+		
+		<script type="text/javascript" src="scr/easySlider1.7.js"></script>
+
+		<script type="text/javascript">
+            $(document).ready(function(){	
+                $("#ts-mtt-slider").easySlider({
+                    auto: false, 
+                    continuous: true
+                });
+            });	
+        </script>
+
+</head>
+
+<body>
+
+<div class="container container_4 hub">
+
+<!-- Header -->
+    <div id="header">
+    <a href="#" id="logo">Team Stripes</a>
+        <ul class="navigation">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">The Wall</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">The Score</a></li>
+            <li><a href="#">News</a></li>
+            <li class="on"><a href="#">Team</a></li>
+            <li><a href="#">Stadium</a></li>
+        </ul>
+    <a href="#" id="jointoday">Join Today</a>
+    <img src="img/global/player.png" alt="Player" width="225" height="240" class="topleft imgalpha" />    </div>
+<!-- End Header -->
+
+<!-- Web 2.0 -->
+    <div id="web20">
+        <ul>
+            <li><a href="#" class="twitter">Twitter</a></li>
+            <li class="facebook"><a href="#">Facebook</a></li>
+            <li class="rss"><a href="#">RSS</a></li>
+        </ul>
+        <ul class="right">   
+            <li class="flickr"><a href="#">Flickr</a></li>
+            <li class="youtube"><a href="#">YouTube</a></li>
+        </ul>
+    </div>
+<!-- End Web 2.0 -->
+
+
+<div class="content">
+
+
+<div class="grid_2">
+<!-- Intro -->
+<div class="carbonbox mtt-min">
+    <h1>Meet <span class="white">The Team</span></h1>
+   	<p class="intro"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ligula sapien, aliquet et vestibulum nec, convallis in ante. Proin ut fringilla quam.</strong></p>  
+    
+    
+    <!--
+    <div class="team"><a href="#" class="leftarrow">Left</a> 
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum doloripsum dolor</a></span>
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+    <a href="#" class="rightarrow">Right</a> </div>
+	-->
+
+		<div id="ts-mtt-slider">
+			<ul>
+            	<li>
+                
+                  <div class="ts-mtt-player-card">
+                    <a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /></a>
+                    <p><a href="#">Jimmy Football</a></p>
+                  </div>
+                  
+                  <div class="ts-mtt-player-card">
+                    <a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /></a>
+                    <p><a href="#">Lorem Ipsum doloripsum dolor</a></p>
+                  </div>
+                  
+                  <div class="ts-mtt-player-card">
+                    <img src="img/placeholder.png" alt="Placeholder" width="110" height="120" />
+                    <p>Lorem Ipsum doloripsum dolor</p>
+                  </div>
+                  
+                  <div class="ts-mtt-player-card">
+                    <img src="img/placeholder.png" alt="Placeholder" width="110" height="120" />
+                    <p>Lorem Ipsum doloripsum dolor</p>
+                  </div>
+                  
+                  <div class="ts-mtt-player-card">
+                    <img src="img/placeholder.png" alt="Placeholder" width="110" height="120" />
+                    <p>Lorem Ipsum doloripsum dolor</p>
+                  </div>
+                  
+                  <div class="ts-mtt-player-card">
+                    <img src="img/placeholder.png" alt="Placeholder" width="110" height="120" />
+                    <p>Lorem Ipsum doloripsum dolor</p>
+                  </div>
+                  
+                  <div class="ts-mtt-player-card">
+                    <img src="img/placeholder.png" alt="Placeholder" width="110" height="120" />
+                    <p>Lorem Ipsum doloripsum dolor</p>
+                  </div>
+                  
+                  <div class="ts-mtt-player-card">
+                    <img src="img/placeholder.png" alt="Placeholder" width="110" height="120" />
+                    <p>Lorem Ipsum doloripsum dolor</p>
+                  </div>
+                  
+                  <div class="ts-mtt-player-card">
+                    <img src="img/placeholder.png" alt="Placeholder" width="110" height="120" />
+                    <p>Lorem Ipsum doloripsum dolor</p>
+                  </div>
+                    <!--
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum doloripsum dolor</a></span>
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+                    <span><a href="#"><img src="img/placeholder.png" alt="Placeholder" width="110" height="120" /><br/>Lorem Ipsum Dolor</a></span>
+                    -->
+                </li>
+                
+                <li style="background: blue;"></li>
+                <li style="background: green;"></li>
+                <li style="background: yellow;"></li>
+			</ul>
+		</div>
+    
+    
+    
+</div>
+<!-- End Intro -->
+
+
+</div>
+
+
+
+<div class="grid_2">
+
+
+<!-- Gallery -->
+<div class="carbonbox slideshow-container mtt-min">
+
+  <h2>Player Name</h2>
+
+<!-- Start Advanced Gallery Html Containers -->				
+    <div id="controls" class="controls"></div>
+    <div id="loading" class="loader"></div>
+    <div id="slideshow" class="slideshow"></div>
+
+
+    <div id="thumbs" class="navigation">
+        <a class="pageLink prev" style="visibility: hidden;" href="#" title="Previous Page"></a>
+    
+        <ul class="thumbs noscript">
+            <li>
+                <a class="thumb" name="leaf" href="http://farm4.static.flickr.com/3261/2538183196_8baf9a8015.jpg" title="Title #0">
+                    <img src="http://farm4.static.flickr.com/3261/2538183196_8baf9a8015_s.jpg" alt="Title #0" width="65" height="49" />
+                </a>
+            </li>
+
+            <li>
+                <a class="thumb" name="drop" href="http://farm3.static.flickr.com/2404/2538171134_2f77bc00d9.jpg" title="Title #1">
+                    <img src="http://farm3.static.flickr.com/2404/2538171134_2f77bc00d9_s.jpg" alt="Title #1" width="65" height="49" />
+                </a>
+            </li>
+
+            <li>
+                <a class="thumb" name="bigleaf" href="http://farm3.static.flickr.com/2093/2538168854_f75e408156.jpg" title="Title #2">
+                    <img src="http://farm3.static.flickr.com/2093/2538168854_f75e408156_s.jpg" alt="Title #2" width="65" height="49" />
+                </a>
+            </li>
+
+            <li>
+                <a class="thumb" name="lizard" href="http://farm4.static.flickr.com/3153/2538167690_c812461b7b.jpg" title="Title #3">
+                    <img src="http://farm4.static.flickr.com/3153/2538167690_c812461b7b_s.jpg" alt="Title #3" width="65" height="49" />
+                </a>
+            </li>
+
+            <li>
+                <a class="thumb" href="http://farm4.static.flickr.com/3150/2538167224_0a6075dd18.jpg" title="Title #4">
+                    <img src="http://farm4.static.flickr.com/3150/2538167224_0a6075dd18_s.jpg" alt="Title #4" width="65" height="49" />
+                </a>
+            </li>
+
+            <li>
+                <a class="thumb" href="http://farm4.static.flickr.com/3204/2537348699_bfd38bd9fd.jpg" title="Title #5">
+                    <img src="http://farm4.static.flickr.com/3204/2537348699_bfd38bd9fd_s.jpg" alt="Title #5" width="65" height="49" />
+                </a>
+            </li>
+
+            <li>
+                <a class="thumb" href="http://farm4.static.flickr.com/3124/2538164582_b9d18f9d1b.jpg" title="Title #6">
+                    <img src="http://farm4.static.flickr.com/3124/2538164582_b9d18f9d1b_s.jpg" alt="Title #6" width="65" height="49" />
+                </a>
+            </li>
+
+            <li>
+                <a class="thumb" href="http://farm4.static.flickr.com/3205/2538164270_4369bbdd23.jpg" title="Title #7">
+                    <img src="http://farm4.static.flickr.com/3205/2538164270_4369bbdd23_s.jpg" alt="Title #7" width="65" height="49" />
+                </a>
+            </li>
+        </ul>
+        <a class="pageLink next" style="visibility: hidden;" href="#" title="Next Page"></a>
+    </div> <!-- /#thumbs -->
+<!-- End Gallery Html Containers -->
+
+    <div style="position: absolute; top: 420px;">
+            <h3>Position: <span class="white">Lorem Ipsum Dolor</span></h3>
+                <p><strong>Nationality:</strong> <span class="blue">Lorem Ipsum Dolor</span><br />
+                <strong>Nick Name:</strong> <span class="blue">Ball Kicker</span><br />
+                <strong>Date of Birth:</strong> <span class="blue">27/05/1978</span><br />
+                <strong>Special Skills:</strong> <span class="blue">Pellentesque ligula sapien</span></p>
+                <p>Pellentesque ligula sapien, aliquet et vestibulum nec, convallis in ante. Proin ut fringilla quam. Vivamus varius euismod nulla vitae gravida. Sed cursus accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ligula sapien, aliquet et vestibulum nec, convallis in ante. Proin ut fringilla quam. Vivamus varius euismod nulla vitae gravida. Sed cursus accumsan.</p>
+    </div>
+
+</div>
+
+<!-- End Gallery -->
+</div>
+
+
+
+
+<div class="clearer"></div>
+
+<!-- Footer -->
+    <ul class="footer">
+        <li><a href="#">Stay Safe</a></li>
+        <li><a href="#">Accessibility Help</a></li>
+        <li><a href="#">Privacy &amp; Cookies</a></li>
+        <li class="noborder"><a href="#">&copy; Brighton &amp; Hove Albion</a></li>
+    </ul>
+<!-- End Footer -->
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+/* Titles
+----------------------------------------------------------------------------------------------------------------------------*/
+h1#gg-fanzone-title { background: url(../img/fanzone/h1-title-fanzone.png) no-repeat; width: 260px; height: 0px; display: block; padding: 63px 0 0 0; overflow: hidden; position: relative; left: -30px; margin: -40px 0 0 0!important; }
+
+/* Drawings
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-drawings {  background:url(../img/fanzone/drawings-bg.png); width: 460px; height: 465px; position: relative; margin: 10px 0 0 0;  }
+#gg-drawings-top { background: url(../img/fanzone/title-drawings.png) no-repeat; width: 460px; height: 93px; top: -12px; position: relative; }
+#gg-drawings-top h2 { position: relative; top: 25px; left: 205px; width: 170px;  }
+#gg-drawings-container { background:url(../img/fanzone/drawings-container-bg.png); width: 442px; height: 400px; margin: 0 auto; position: relative; margin-top: -31px; }
+#gg-drawings-info { float: left; margin: 10px 0 0 10px; }
+#gg-drawings-info h2 { margin: 0; color: #FFF; font-size: 1.4em; }
+#gg-drawings-info h3 { margin: 0; color: #FFF; }
+#gg-drawings-info .award-1 { background: url(../img/fanzone/award-1.png); width: 159px; height: 236px; position: absolute; left: -5px; top: 55px; }
+#gg-drawing-img { position: relative; left: 140px; top: 10px; width: 269px; clear: both; }
+#gg-drawing-img img { border: 1px solid #FFF; }
+#gg-drawings-thumbs { width: 440px; height: 75px; top: 0px; position: relative; clear: both; }
+#gg-drawings-thumbs img { border: 1px solid #FFF; margin: 0 7px; float: left; }
+#gg-drawings .bottom-panel-bg { left: 110px; position: relative; top: 329px; display: none; }
+
+/* Messages
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-messages-small { background: url(../img/fanzone/messageboard-small-bg.png) no-repeat; width: 225px; /*height: 405px;*/ display: block; margin: 30px 0 15px 0; }
+#gg-messages-small-top { background: url(../img/fanzone/messageboard-title-small.png) no-repeat; width: 188px; height: 83px; top: -5px; left: -8px; position: relative; z-index: 3000 }
+
+#gg-messages-small-top a { display: block; width: 175px; height: 0px; padding: 63px 0px 0px 0px; text-indent: -9999px; }
+
+#gg-message-small-container { margin-top: -25px; position: relative; }
+.message-small { width: 190px; margin: 0 8px 3px 8px; background: #072a53 url(../img/fanzone/message-small-bg.png) top center repeat-x; padding: 7px; border: 1px solid #49cdec; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75); }
+.message-small h3 { font-size: 1.1em; color: #FFF; margin: 0 0 5px 0; background: url(../img/fanzone/icon-commenttitle.png) no-repeat left center; padding-left: 1.4em; }
+.message-small p { margin: 0; font-size: 1.1em; line-height: 120%; color: #FFF; }
+.message-small .tools { text-align: right; border-top: 2px groove #3f81bf; padding: 3px 0 0 0; margin: 3px 0 0 0; }
+.message-small a { color: #49cdec; text-decoration: none; }
+.message-small .like { background: url(../img/fanzone/icon-like.png) no-repeat left center; padding-left: 1.4em; }
+.message-small .comment { background: url(../img/fanzone/icon-comment.png) no-repeat left center; padding-left: 1.2em; }
+.message-small .report { background: url(../img/fanzone/icon-report.png) no-repeat left center; padding-left: 0.6em; }
+#gg-messages-small .bottom-panel-bg { position: relative; left: 6px; top: 4px; /*height: 94px;*/ background: url(../img/global/to-action-big-bg.png) no-repeat; }
+#gg-messages-small textarea { width: 183px; height: 36px; padding: 5px; margin: 8px 0 0 0; border: 1px solid #7cdbff; font-family: Arial, Helvetica, sans-serif; font-size: 1.2em; color: #666; }
+
+
+
+div#container {
+	overflow: hidden;
+}
+div.content {
+	/*display: none;
+	clear: both;*/
+}
+
+div.content a, div.navigation a {
+	text-decoration: none;
+}
+div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+
+div.navigation a.pageLink {
+	height: 77px;
+	line-height: 77px;
+}
+
+div.controls {
+	/*margin-top: 5px;
+	height: 23px;*/
+	position: absolute;
+	z-index: 50;
+	top: 300px;
+}
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	/*float: left;*/
+}
+div.nav-controls {
+	/*float: right;*/
+}
+
+div.slideshow-container,
+div.loader,
+div.slideshow a.advance-link {
+	/*width: 510px;*/ /* This should be set to be at least the width of the largest image in the slideshow with padding */
+	/*background: red;*/
+	width: 444px;
+	text-decoration: none;
+	position: relative;
+	top: 38px;
+}
+
+div#caption { displaY: none; position: absolute; z-index: 1000; top: 10px;left: 10px; width: 100%; overflow: hidden; /*height: 20px;*/ }
+div#caption h3 { color: #fff; }
+
+div.loader,
+div.slideshow a.advance-link,
+div.caption-container {
+	/*height: 502px;*/ /* This should be set to be at least the height of the largest image in the slideshow with padding */	
+	/*height: 250px;*/
+	height: 340px;
+}
+
+div.slideshow-container {
+	
+	position: relative;
+	clear: both;
+	/*float: left;*/
+	/*height: 532px;*/
+	padding: 0px 0px 0px 0px;
+}
+
+div.loader {
+	/*position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: -52px;
+	z-index: 10;
+	left: -1px;
+	/*top: 30px;
+	left: 0;*/
+}
+div.slideshow span.image-wrapper img {
+	border: 1px solid #fff;
+}
+
+div.slideshow a.advance-link {
+	display: block;
+	/*line-height: 502px;*/ /* This should be set to be at least the height of the largest image in the slideshow with padding */
+	text-align: center;
+}
+
+div.slideshow a.advance-link:hover,
+div.slideshow a.advance-link:active,
+div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow a.advance-link:focus {
+	outline: none;
+}
+
+div.slideshow img {
+	/*border-style: solid;
+	border-width: 1px;*/
+	/*width: 446px;
+	height: 290px;*/
+}
+div.caption-container {
+	/*float: right;
+	position: relative;
+	margin-top: 30px;*/
+	display: none;
+}
+span.image-caption {
+	display: none;
+	/*display: block;
+	position: absolute;
+	top: 0;
+	left: 0;*/
+}
+
+div.caption-container, span.image-caption {
+	/*width: 334px;*/
+}
+
+div.caption {
+	/*padding: 0 12px;*/
+}
+
+div.image-title {
+	/*font-weight: bold;
+	font-size: 1.4em;*/
+}
+/*
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+div.download {
+	margin-top: 8px;
+}
+div.photo-index {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 12px;
+}
+*/
+div.navigation-container {
+	/*float: left;
+	position: relative;
+	left: 50%;*/
+}
+/*
+div.navigation {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+*/
+div.navigation a.pageLink {
+	/*display: block;
+	position: relative;
+	float: left;
+	margin: 2px;
+	width: 16px;
+	background-position:center center;
+	background-repeat:no-repeat;*/
+}
+div.navigation a.pageLink:focus {
+	outline: none;
+}
+
+ul.thumbs {
+	/*position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;*/
+}
+ul.thumbs li {
+	/*float: left;
+	padding: 0;
+	margin: 2px;*/
+	list-style: none;
+}
+ul.thumbs { position: absolute; /*top: 265px;*/top: 300px; left: 62px; z-index: 0; margin: 0px; padding: 0px; list-style: none; }
+ul.thumbs li { padding: 0px 5px 0px 5px; display: inline; }
+
+
+/*ul.thumbs div.captionXX { display: none; }*/
+
+div.nav-controls { position: relative; }
+div.nav-controls a.prev { position: absolute; z-index: 80; /*top: -33px;*/ left: 0px; background: url(../img/global/arrows-left.png) no-repeat 0px 0px; display: block; height: 0px; overflow: hidden; padding: 54px 0 0; width: 55px; text-indent: -9999px;
+}
+
+div.nav-controls a.next { position: absolute; z-index: 90; /*top: -33px;*/ left: 384px; background: url(../img/global/arrows-right.png) no-repeat 0px 0px; display: block; height: 0px; overflow: hidden; padding: 54px 0 0; width: 55px; text-indent: -9999px;
+}
+
+a.prev:hover,
+a.next:hover { background-position: 0px -54px; }
+
+
+
+a.thumb {
+	/*padding: 1px;
+	display: block;*/
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	border: 1px solid #fff;
+	/*display: block;*/
+}
+div.pagination {
+	/*clear: both;
+	position: relative;
+	left: -50%;*/
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	/*position: relative;
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;*/
+}
+div.pagination a:hover {
+	/*text-decoration: none;*/
+}
+div.pagination span.current {
+	/*font-weight: bold;*/
+}
+div.pagination span.ellipsis {
+	border: none;
+	/*padding: 5px 0 3px 2px;*/
+}
+
+div.gallery-gutter {
+	/*clear: both;
+	padding-bottom: 20px;*/
+}
+
+
+.bottom-panel .hub .button p { float: none !important; }
+/*.bottom-panel p { float: none !important; }*/
+
+/* Added by DK for new bottom panel on message board */
+div#gg-message-bottom-panel { margin: 5px 0px 0px 6px; }
+
+
+div#gg-message-top-bg { width: 211px; height: 4px; overflow: hidden; background: url(../img/fanzone/gg-message-top-bg.png); }
+
+div#gg-message-middle-bg { width: 211px; padding: 0px 0px 4px 0px; background: url(../img/fanzone/gg-message-middle-bg.png); }
+
+div#gg-message-middle-bg p { padding: 10px 0px 0px 10px; }
+div#gg-message-middle-bg p a { font-weight: bold; text-decoration: none; color: #fff; }
+div#gg-message-middle-bg p a:hover { text-decoration: underline; }
+
+div#gg-message-middle-bg form { padding: 0px 0px 0px 8px !important; }
+div#gg-message-middle-bg form p { padding: 0px !important; margin: 0px !important; }
+div#gg-message-middle-bg form p a { color: #fff; text-decoration: none; }
+div#gg-message-middle-bg form p a:hover { text-decoration: underline; }
+
+div#gg-message-middle-bg form p a.button { font-weight: normal; font-size: 1em; color: #003e7f !important; }
+div#gg-message-middle-bg form p a.button:hover { text-decoration: none; }
+div#gg-message-middle-bg h3 { margin: 0px !important; !important; padding: 6px 0px 6px 0px; }
+
+div#gg-message-bottom-bg { width: 211px; height: 4px; overflow: hidden; background: url(../img/fanzone/gg-message-bottom-bg.png); }
+
+div#flash { position: absolute; left: 0px; top: 100%; margin-left: 0px; margin-top: -400px; z-index: 1000; }
+
+/* Message form */
+div.gg-message-form { padding: 3px 0px; }
+div#gg-message-form form {  }
+div#gg-message-form form p { padding: 0px 8px 3px 0px !important; margin: 0px; }
+div#gg-message-form form h2 { font-size: 1.6em !important; }
+div#gg-message-form form textarea { margin: 0px 0px 5px 0px; }
+div.gg-message-form input.gg-message-form-send { background:url("../img/global/standard-button.png") repeat scroll 0px 0px; color: #0968B4; display: block; font-size: 1.2em; font-weight: bold; padding: 5px 0px 5px 0px; margin: 0px 7px 0px 0px; text-align: center; text-decoration: none; width: 91px; border: 0px; float: right; }
+
+/* Comment form */
+div.gg-comment-form { display: none; }
+div.gg-comment-form form {  }
+div.gg-comment-form form textarea { width: 176px !important; }
+div.gg-comment-form input.gg-message-form-send { margin: 5px 0px 0px 0px; }
+
+
+/* Comments styling */
+div.message-small h4 { color: #04d2ff; padding: 0px 0px 0px 10px; font-weight: normal; }
+div.gg-message-comment { margin: 5px 0px 0px 10px; padding: 0px 0px 5px 0px; }
+div.gg-message-comment p.tools { background: #3F81BF; padding: 0px 4px 2px 0px; }
+div.gg-message-comment p.tools a { color: #fff; }

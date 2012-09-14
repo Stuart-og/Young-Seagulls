@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Registration
+----------------------------------------------------------------------------------------------------*/
+div#ts-registration-intro {  }
+div#ts-registration-intro p { width: 540px; font-size: 1.8em; }
+
+
+form#gg-reg-form { padding: 0px 0px 20px 0px; }
+form#gg-reg-form div.gg-form-row { padding: 10px 10px 10px 10px !important; }
+form#gg-reg-form div.gg-form-row.blue { background: #666; }
+
+form#gg-reg-form div.gg-form-row.blue p {  }
+form#gg-reg-form div.gg-form-row p { color: #fff !important; font-size: 1.4em; width: 360px; padding: 0px 10px 0px 0px !important; margin: 0px; !important; }
+
+
+form#gg-reg-form div.gg-form-row input.gg-reg-text-input { width: 202px; height: 17px; padding: 3px 0px 0px 3px; background: url(../img/global/text-input.gif) 0px 0px repeat; border: 0px; }
+form#gg-reg-form div.gg-form-row input.gg-reg-text-input-small { width: 37px; height: 17px; padding: 3px 0px 0px 3px; margin: 0px 15px 0px 0px; background: url(../img/global/text-input-small.gif) 0px 0px no-repeat; border: 0px; }
+form#gg-reg-form div.gg-form-row select.gg-select { margin: 0px 10px 0px 0px; }
+
+form#gg-reg-form div.gg-form-row div.gg-reg-radio-check { font-size: 1.4em; padding: 0px 0px 5px 0px; color: #fff; }
+
+div.error { color: red; font-size: 1.4em; }
+.formError {
+	position: absolute;
+	background: white;
+	padding: 5px;
+	border: solid red 2px;
+	color: red;
+	z-index: 5;
+}
+
+input#submit {  }

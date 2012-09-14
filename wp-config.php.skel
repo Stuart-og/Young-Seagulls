@@ -1,0 +1,6 @@
+<?php
+$dbhost = '{$blog_mysql_host}';
+$dbuser = '{$blog_mysql_user}';
+$dbpass = '{$blog_mysql_pass}';
+$dbname = '{$blog_mysql_name}';
+?>

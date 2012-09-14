@@ -1,0 +1,80 @@
+
+/* Score Media
+----------------------------------------------------------------------------------------------------------------------------*/
+.image-gallery { position: relative; width: 448px; height: 380px; float: left; }
+.image-gallery img { border: 1px solid #006fb7; }
+#gg-score-thumbs { text-align: center; margin: 15px 0 0 0; }
+#gg-score-thumbs img { margin: 0 7px; float: left; }
+#gg-score-thumbs .leftarrow { margin-right: 8px; }
+
+.image-gallery img { border: 1px solid #006fb7; text-decoration: none; }
+/*.image-gallery div.slideshow { text-indent: -9999px; overflow: hidden;    width: 446px; height: 290px; }*/
+.image-gallery div.slideshow a { border: 0px; text-decoration: none; }
+div#caption .photo-index { display: none; }
+
+div#caption .image-desc {
+	position: absolute;
+	display: block;
+	top: 50px;
+	z-index: 20;
+}
+div#caption .image-title {
+	position: absolute;
+	display: block;
+	top: 10px;
+	z-index: 20;
+}
+
+.winner {
+	background: red;
+}
+
+
+.image-gallery div.slideshow span.image-wrapper { display: block; position: absolute; /*text-indent: -9999px; overflow: hidden; width: 446px; height: 290px;*/ }
+ul.thumbs { position: absolute; top: 320px; left: 66px; margin: 0px; padding: 0px; list-style: none; }
+ul.thumbs li { padding: 0px 5px 0px 5px; display: inline; }
+ul.thumbs li a.thumb {  }
+div.top.pagination { position: absolute; bottom: 0px; background: red; }
+div.bottom.pagination { position: absolute; bottom: 0px; left: 50px; background: yellow; }
+
+div.slideshow a.advance-link:hover,
+div.slideshow a.advance-link:active,
+div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+
+div.caption { display: none; }
+span.current div.caption { display: block;}
+
+a.prev { 
+	position: absolute;
+	top: 319px;
+	left: 0px;
+	z-index: 10;
+	background: url(../img/global/arrows-left.png) no-repeat 0px 0px;
+	display:block;
+	height:0;
+	overflow:hidden;
+	padding:54px 0 0;
+	width:55px;
+	text-indent: -9999px;
+}
+
+a.next {
+	position: absolute;
+	top: 319px;
+	left: 395px;
+	z-index: 20;
+	background: url(../img/global/arrows-right.png) no-repeat 0px 0px;
+	display:block;
+	height:0;
+	overflow:hidden;
+	padding:54px 0 0;
+	width:55px;
+	z-index:10;
+	text-indent: -9999px;
+}
+
+a.prev:hover,
+a.next:hover { background-position: 0px -54px; }
+

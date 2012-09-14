@@ -1,0 +1,38 @@
+/* PNG Fix */
+div#gg-logo a, #gg-ticker-wrapper, .button, #gg-about-panel-top, #gg-about-gully, #gg-team-panel-top, .cards, #gg-scores-panel-top, #gg-fan-panel-top, #gg-news-panel-top, #gg-cheerleaders-panel-top, .cheerleaders-photo, #gg-stadium-panel-top, #smallsecondary li a, .seagull01, .seagull02, .seagull03, .seagull04, .smallrating1, .smallrating2, .smallrating3, .leftarrow, .rightarrow, #gg-skills-bg h1, #gg-skills-video-panel h2, .bigrating, .bigrating-off, #gg-team-players-top, #gg-team-info h3 img, #gg-intro-title, #gg-intro-gully, #gg-party-panel-top, #gg-school-panel-top, h1#gg-schools-title, h1#gg-parties-title, #gg-party-panel-small-top { behavior: url(http://www.youngseagulls.co.uk/fileadmin/templates/img/global/blank.gif/fileadmin/templates/css/iepngfix.htc); }
+
+/* Home Fixes */
+#gg-news-panel .bottom-panel-bg { margin-top: -52px!important; }
+#gg-cheerleaders-panel, #gg-stadium-panel { margin-top: -1px!important; }
+#gg-stadium-panel .bottom-panel-bg { margin-top: -46px!important; }
+#home .seagull01 { margin-left: -482px; float: left; }
+
+/* Hub Fixes */
+.hub .button { margin: 4px 5px 0 0!important; }
+
+/* Skills Fixes */
+
+/* Meet the Team Fixes */
+#gg-team-info-title .button { top: 7px!important; }
+#gg-team-players-cards { margin-left: -2px!important; }
+#gg-team-info-stats .bottom-panel-bg { top: 236px; }
+
+#gg-team-info { top: 0px; }
+
+
+#gg-team-info-stats { width: 442px; height: 269px; top: 265px; left: -2px; }
+
+/* About Fixes */
+#gg-school-panel { margin: 4px 0 0 0; }
+#gg-school-panel-top { margin: 0; }
+
+/* Panel Fixes */
+#gg-party-panel-small { margin: 4px 0 0 0; }
+#gg-party-panel-small-top { margin: 0; }
+
+
+div#gg-bigcommon-middle { height: 400px; }
+
+
+span#prevBtn a { left: -220px; }
+span#nextBtn a { left: 635px; }

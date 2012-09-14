@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div#ts-home-slider { margin: 0px 0px 0px 10px; }
+div#ts-home-slider ul { list-style: none; padding: 0px; }
+div#ts-home-slider ul li { width: 375px; height: 51px; list-style: none; }
+
+div#ts-home-video { position: relative; width: 370px; height: 240px; margin: 40px auto 30px auto; }
+
+span#prevBtn a { position: absolute; top: 375px; left: 25px; background:transparent url(../img/global/gallery-arrow-left.png) repeat scroll 0 0; display: block; height: 0px; overflow: hidden; padding: 12px 0px 0px 0px; width: 8px; }
+	
+span#nextBtn a { position: absolute; top: 375px; left: 424px; background:transparent url(../img/global/gallery-arrow-right.png) repeat scroll 0 0; display: block; height: 0px; overflow: hidden; padding: 12px 0px 0px 0px; width: 8px; }
+
+img#ts-home-loading { position: absolute; top: 70px; left: 150px; }
+
+/* Added by DK */
+div.ts-twitter-wrapper {  }
+div.ts-twitter-wrapper a.button { position: absolute; top: 134px; left: 6px; }
+
+/* Wall
+-------------------------------------------------------------------------------------------------------------------------*/
+div.chat {  }
+div.ts-wall-post { padding: 0px 0px 10px 0px; margin: 0px 0px 10px 0px; /*border-bottom: 1px solid #555;*/ }
+div.ts-wall-post h4 { margin: 0px 0px 0px 0px !important; }
+div.ts-wall-post div.clearer { border: 0px !important; padding: 0px !important; margin: 0px !important; }
+div.ts-wall-post a.button { margin: 0px 0px 0px 5px; !important; }
+
+div.ts-wall-post div.ts-post-by { width: 280px; padding: 4px 0px 0px 0px; }
+div.ts-wall-post div.ts-post-links { width: 140px; }
+
+/* Comment form */
+div.gg-comment-form { display: none; margin: 5px 0px 0px 0px; position: relative; }
+div.gg-comment-form form {  }
+div.gg-comment-form form textarea { width: 380px !important; height: 70px; border: 1px solid #01B5DD; }
+div.gg-comment-form input.gg-message-form-send { position: absolute; bottom: 0px; right: 0px; z-index: 10; background: none repeat #333333; color: #FFFFFF; font-size: 1.1em; font-weight: bold; margin: -10px 0px 0px 0px; padding: 5px 11px; text-decoration: none; border: 0px; border-top: 1px solid #01B5DD; }

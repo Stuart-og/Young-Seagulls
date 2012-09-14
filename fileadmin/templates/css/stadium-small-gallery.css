@@ -1,0 +1,68 @@
+/* Small Gallery Styling
+----------------------------------------------------------------------------------------------------------------------------*/
+div#caption { display: none; }
+
+
+#gg-stadium-gallery {  }
+#gg-stadium-gallery div.content { background: url(../img/stadium/gg-gallery-container-bg.png) top center no-repeat; height: 375px; margin-top: -49px; }
+
+
+#gg-stadium-gallery img { border: 1px solid #006fb7; }
+#gg-score-thumbs { text-align: center; margin: 15px 0 0 0; }
+#gg-score-thumbs img { margin: 0 7px; float: left; }
+#gg-score-thumbs .leftarrow { margin-right: 8px; }
+
+#gg-stadium-gallery img { border: 1px solid #006fb7; text-decoration: none; }
+/*#gg-stadium-gallery div.slideshow { text-indent: -9999px; overflow: hidden;    width: 446px; height: 290px; }*/
+#gg-stadium-gallery div.slideshow a { border: 0px; text-decoration: none; }
+div#caption { display: none; }
+
+#gg-stadium-gallery div.slideshow span.image-wrapper { display: block; position: absolute; top: 90px; left: 92px; /*text-indent: -9999px; overflow: hidden; width: 446px; height: 290px;*/ }
+#gg-stadium-gallery div.slideshow span.image-wrapper img { width: 267px; height: 195px; }
+ul.thumbs { position: absolute; top: 317px; left: 70px; margin: 0px; padding: 0px; list-style: none; }
+ul.thumbs li { padding: 0px 5px 0px 5px; display: inline; }
+ul.thumbs li a.thumb {  }
+div.top.pagination { position: absolute; bottom: 0px; background: red; }
+div.bottom.pagination { position: absolute; bottom: 0px; left: 50px; background: yellow; }
+
+div.slideshow a.advance-link:hover,
+div.slideshow a.advance-link:active,
+div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+
+div.caption { display: none; }
+
+a.prev { 
+	position: absolute;
+	top: 318px;
+	left: 12px;
+	z-index: 10;
+	background: url(../img/global/arrows-left.png) no-repeat 0px 0px;
+	display:block;
+	height:0;
+	overflow:hidden;
+	padding:54px 0 0;
+	width:55px;
+	text-indent: -9999px;
+}
+
+a.next {
+	position: absolute;
+	top: 318px;
+	left: 392px;
+	z-index: 20;
+	background: url(../img/global/arrows-right.png) no-repeat 0px 0px;
+	display:block;
+	height:0;
+	overflow:hidden;
+	padding:54px 0 0;
+	width:55px;
+	z-index:10;
+	text-indent: -9999px;
+}
+
+a.prev:hover,
+a.next:hover { background-position: 0px -54px; }
+
+a.pageLink { display: none; }

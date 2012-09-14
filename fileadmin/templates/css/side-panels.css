@@ -1,0 +1,91 @@
+/* Tweet Box
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-tweet-box { clear: left; position: relative; top: -10px; }
+#gg-tweet-box .tweet { background: url(../img/global/tweet-box-bg.png); width: 225px; height: 154px; }
+#gg-tweet-box .tweet p { color: #666; padding: 20px 40px; margin: 0; }
+#gg-tweet-box .tweet a { color: #666; }
+#gg-tweet-box ul { margin: 0; padding: 0; }
+#gg-tweet-box ul li { float: left; list-style: none; }
+#gg-tweet-box li.safe { font-size: 0.8em; clear: left; }
+#gg-tweet-box li a { color: #FFF; }
+#gg-tweet-box .rss, #gg-tweet-box .twitter, #gg-tweet-box .facebook { width: 40px; height: 0px; padding: 39px 0 0 0; overflow: hidden; display: block; }
+#gg-tweet-box .rss { background: url(../img/global/sm-icons-rss.png); }
+#gg-tweet-box .twitter { background: url(../img/global/sm-icons-twitter.png); }
+#gg-tweet-box .facebook { background: url(../img/global/sm-icons-facebook.png); }
+
+/* Fan Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-fan-panel { width: 225px; height: 215px; background: url(../img/home/fan-panel-bg.jpg) 0px 0px no-repeat; margin: 7px 0 0 1px; clear: both; }
+#gg-fan-panel-top { background: url(../img/home/fan-title.png) no-repeat; width: 225px; height: 100px; display: block; position: relative; top: -5px; left: -5px; color: #FFF; }
+#gg-fan-panel-top h2 { position: relative; top: 19px; left: 95px; width: 110px;  }
+#gg-fan-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: 78px; }
+
+/* Newsletter Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-newsletter-panel { width: 225px; height: 215px; background: url(../img/skills/gg-skills-panel-bg.png) 0px 0px no-repeat; margin: 9px 0 0 0; position: relative; clear: both; }
+#gg-newsletter-panel-top { background: url(../img/newsletters/newsletter-panel-title.png) no-repeat; width: 225px; height: 78px; display: block; position: relative; margin-top: 0px; left: -2px; color: #FFF; z-index: 400; }
+#gg-newsletter-panel-top h2 { position: relative; top: 14px; left: 135px; width: 110px; }
+#gg-newsletter-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: 99px; }
+#gg-newsletter-img{ background: url(../img/newsletters/newsletter.png) 0px 0px no-repeat; width: 230px; height: 195px; display: block; position: absolute; top: 35px; left: -5px; z-index: 0; }
+
+/* Scores Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-scores-panel { width: 225px; height: 215px; background: url(../img/home/newsletter-panel-bg.png) 0px 0px no-repeat; margin: 7px 0 0 0; }
+#gg-scores-panel-top { background: url(../img/home/scores-title.png) no-repeat; width: 225px; height: 100px; display: block; position: relative; top: -13px; left: -5px; color: #FFF; }
+#gg-scores-panel-top h2 { position: relative; top: 27px; left: 105px; width: 90px;  }
+#gg-scores-panel .bottom-panel-bg { left: 6px; position: relative; }
+#gg-scores-panel .content { margin-top: -45px; position: relative; padding: 10px; height: 103px; }
+#gg-scores-panel table { font-size: 1.2em; line-height: 100%; font-weight: bold; color: #FFF; }
+#gg-scores-panel td { padding: 3px 5px; }
+#gg-scores-panel table .odd { background: #4ab4e1; color: #003e7f; }
+#gg-scores-panel table a { text-decoration: none; color: #fff; }
+#gg-scores-panel a:hover { color: #003e7f; }
+#gg-scores-panel table .odd a { color: #003e7f; }
+#gg-scores-panel table .odd a:hover { color: #fff; }
+
+/* School Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-school-panel { width: 225px; height: 215px; background: url(../img/about/school-bg.jpg) 0px 0px no-repeat; margin: 9px 0 0 0; position: relative; }
+#gg-school-panel-top { background: url(../img/about/title-school.png) no-repeat; width: 225px; height: 78px; display: block; position: relative; margin-top: -5px; left: -8px; color: #FFF; }
+#gg-school-panel-top h2 { position: relative; top: 8px; left: 135px; width: 110px; }
+#gg-school-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: 99px; }
+
+/* Party Panel Small
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-party-panel-small { width: 225px; height: 215px; background: url(../img/about/party-small-bg.jpg) 0px 0px no-repeat; margin: 9px 0 0 0; position: relative; }
+#gg-party-panel-small-top { background: url(../img/about/title-party-small.png) no-repeat; width: 225px; height: 78px; display: block; position: relative; margin-top: -5px; left: -8px; color: #FFF; }
+#gg-party-panel-small-top h2 { position: relative; top: 14px; left: 135px; width: 110px; }
+#gg-party-panel-small .bottom-panel-bg { left: 6px; position: relative; margin-top: 99px; }
+
+/* Skills Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-skills-panel { width: 225px; height: 215px; background: url(../img/skills/gg-skills-panel-bg.png) 0px 0px no-repeat; margin: 9px 0 0 0; position: relative; clear: both; }
+#gg-skills-panel-top { background: url(../img/skills/gg-skills-panel-top.png) no-repeat; width: 225px; height: 78px; display: block; position: relative; margin-top: 0px; left: -5px; color: #FFF; }
+#gg-skills-panel-top h2 { position: relative; top: 14px; left: 135px; width: 110px; }
+#gg-skills-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: 99px; }
+#gg-skills-panel .boy { background: url(../img/skills/skills-boy.png); width: 178px; height: 195px; display: block; position: absolute; top: -5px; left: 3px; z-index: 300 }
+
+/* Gameon Panel
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-gameon-panel { width: 225px; height: 215px; background: url(../img/gameon/gameon-panel-bg.jpg) 0px 0px no-repeat; margin: 8px 0 0 1px; clear: both; }
+#gg-gameon-panel-top { background: url(../img/gameon/gameon-title.png) no-repeat; width: 225px; height: 100px; display: block; position: relative; top: 0px; left: -9px; color: #FFF; }
+#gg-gameon-panel-top h2 { position: relative; top: 14px; left: 130px; width: 80px;  }
+#gg-gameon-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: 78px; }
+
+/* Photo
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-photo-panel-bg {  width: 225px; height: 215px; background: url(../img/fanzone/photos-small-bg.png) 0px 0px no-repeat; margin: 7px 0 0 1px; clear: both; position: relative; }
+#gg-photo-panel-top { background: url(../img/fanzone/photos-small-title.png) no-repeat; width: 225px; height: 100px; display: block; position: relative; top: -7px; left: -9px; color: #FFF; }
+#gg-photo-panel-top h2 { position: relative; top: 21px; left: 130px; width: 110px;  }
+#gg-photo-panel-bg .bottom-panel-bg { left: 6px; position: relative; margin-top: 78px; }
+#gg-photo-panel-bg .content { width: 200px; position: absolute; left: 10px; top: 70px; }
+#gg-photo-panel-bg .content img { float: right; border: 1px solid #FFF; }
+div#gg-photo-panel-bg div.content p { width: 105px; }
+
+/* Grub
+----------------------------------------------------------------------------------------------------------------------------*/
+#gg-grub-panel { width: 225px; height: 215px; background: url(../img/grub/grub-panel.jpg); margin: 0px 0 0 0; position: relative; clear: both; }
+#gg-grub-panel-top { background: url(../img/grub/grub-panel-title.png) no-repeat; width: 225px; height: 91px; display: block; position: relative; top: 1px; left: -7px; color: #FFF; }
+#gg-grub-panel-top h2 { position: relative; top: 14px; left: 135px; width: 110px; }
+#gg-grub-panel .bottom-panel-bg { left: 6px; position: relative; margin-top: 86px; }
+#gg-grub-panel .bannana { background: url(../img/grub/grub-panel-bannana.png); width: 225px; height: 215px; display: block; position: absolute; top: 2px; left: 0px; }

@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteRule ^typo3$ - [L]
+RewriteRule ^typo3/.*$ - [L]
+{literal}
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php
+{/literal}
+
+#AuthType Basic
+#AuthUserFile {$root}/www/.htpasswd
+#AuthName "Development Server"
+#Satisfy All
+#Require valid-user

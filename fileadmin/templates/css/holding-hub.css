@@ -1,0 +1,17 @@
+a { text-decoration: none; }
+
+/* Ticker
+----------------------------------------------------------------------------------------------------------------------------*/
+div#gg-ticker-wrapper { position: relative; top: -40px; left: 380px; z-index: 10; width: 550px; height: 75px; background: url(../img/global/hub-ticker-bg.png) 0px 0px no-repeat; overflow: hidden; }
+div#gg-ticker-wrapper span { padding: 18px 20px; float: left; font-size: 1.4em; line-height: 100%; width: 300px; display: block; margin: 18px 0 0 5px; }
+div#gg-ticker-wrapper span a { color: #003e7f; text-decoration: none; }
+div#gg-ticker-wrapper span a:hover { color: #006fb7; }
+
+/* Main
+----------------------------------------------------------------------------------------------------------------------------*/
+.grid_2 { position: relative; top: 280px; width: 550px!important;  left: 350px; font-size: 1.2em; }
+#gg-content-middle { background: url(../img/global/holding-hub.jpg)!important; width: 940px; height: 620px; display: block; }
+
+.join { position: relative; top: -10px; left: -5px; }
+.join a { display: block; width: 131px; height: 60px; background: url(../img/global/holding-join.gif) 0px 60px; text-indent: -9999px; overflow: hidden; }
+.join a:hover { background: url(../img/global/holding-join.gif) 0px 0px; }

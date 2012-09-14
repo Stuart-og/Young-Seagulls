@@ -1,0 +1,3 @@
+config.baseURL=http://www.youngseagulls.co.uk/
+config.metaCharset = utf-8
+config.renderCharset = utf-8
